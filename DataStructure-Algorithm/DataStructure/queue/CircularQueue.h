@@ -1,5 +1,7 @@
 #pragma once
 
+// ***** Circular Queue *****
+
 #define MAX_CIRCULAR_QUEUE_SIZE 10000
 
 template <typename T>
