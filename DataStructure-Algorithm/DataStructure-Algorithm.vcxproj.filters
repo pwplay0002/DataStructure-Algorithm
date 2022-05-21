@@ -12,6 +12,9 @@
     <Filter Include="DataStructure\stack">
       <UniqueIdentifier>{a243512c-9a11-4abe-8104-c14294ae1022}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructure\queue">
+      <UniqueIdentifier>{88421ff0-3cfe-492a-a058-471a315b93f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -28,6 +31,12 @@
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
       <Filter>DataStructure\stack</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\queue\queue.h">
+      <Filter>DataStructure\queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\queue\CircularQueue.h">
+      <Filter>DataStructure\queue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

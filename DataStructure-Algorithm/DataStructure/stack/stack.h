@@ -6,31 +6,31 @@ template <typename T>
 class stack
 {
 public:
-	stack() : topIndex(-1) {}
+	stack() : mTop(-1) {}
 
 	void push(T value)
 	{
-		data[++topIndex] = value;
+		data[++mTop] = value;
 	}
 	T pop()
 	{
 		if (empty()) return -1;
-		return data[topIndex--];
+		return data[mTop--];
 	}
 	T top()
 	{
 		if (empty()) return -1;
-		return data[topIndex];
+		return data[mTop];
 	}
 	int size()
 	{
-		return topIndex + 1;
+		return mTop + 1;
 	}
 	bool empty()
 	{
-		return (topIndex < 0);
+		return (mTop < 0);
 	}
 private:
 	T data[MAX_STACK_SIZE];
-	int topIndex;
+	int mTop;
 };
