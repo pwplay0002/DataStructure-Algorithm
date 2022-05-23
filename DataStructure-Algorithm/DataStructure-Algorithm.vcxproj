@@ -147,9 +147,9 @@
   <ItemGroup>
     <ClInclude Include="DataStructure\queue\CircularQueue.h" />
     <ClInclude Include="DataStructure\queue\DynamicQueue.h" />
+    <ClInclude Include="DataStructure\queue\LinearQueue.h" />
     <ClInclude Include="DataStructure\queue\queue.h" />
     <ClInclude Include="DataStructure\stack\stack.h" />
-    <ClInclude Include="LinearQueue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

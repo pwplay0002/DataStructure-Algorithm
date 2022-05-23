@@ -41,7 +41,7 @@
     <ClInclude Include="DataStructure\queue\DynamicQueue.h">
       <Filter>DataStructure\queue</Filter>
     </ClInclude>
-    <ClInclude Include="LinearQueue.h">
+    <ClInclude Include="DataStructure\queue\LinearQueue.h">
       <Filter>DataStructure\queue</Filter>
     </ClInclude>
   </ItemGroup>
