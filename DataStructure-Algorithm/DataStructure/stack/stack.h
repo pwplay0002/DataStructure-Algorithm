@@ -10,17 +10,17 @@ public:
 
 	void push(T value)
 	{
-		data[++mTop] = value;
+		mData[++mTop] = value;
 	}
 	T pop()
 	{
 		if (empty()) return -1;
-		return data[mTop--];
+		return mData[mTop--];
 	}
 	T top()
 	{
 		if (empty()) return -1;
-		return data[mTop];
+		return mData[mTop];
 	}
 	int size()
 	{
@@ -31,6 +31,6 @@ public:
 		return (mTop < 0);
 	}
 private:
-	T data[MAX_STACK_SIZE];
+	T mData[MAX_STACK_SIZE];
 	int mTop;
 };

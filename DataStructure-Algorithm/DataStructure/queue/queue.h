@@ -1,6 +1,6 @@
 #pragma once
 
-// ***** Queue *****
+// ***** Static Queue *****
 
 #define MAX_QUEUE_SIZE 100005
 
@@ -43,7 +43,7 @@ public:
         return data[mTail - 1];
     }
 private:
-    int mHead;	// 다음 삭제될 위치를 가리키는 값
-    int mTail;	// 다음 삽입될 위치를 가리키는 값
+    int mHead;	// 다음 삭제될 위치를 가리키는 값 (front라고도 부름)
+    int mTail;	// 다음 삽입될 위치를 가리키는 값 (rear라고도 부름)
     T data[MAX_QUEUE_SIZE];
 };
