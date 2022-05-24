@@ -56,8 +56,13 @@ public:
         if (empty()) return -1;
 
         // 앞으로 당기는 코드
-        for(int i = 0; i < size(); i++)
+        for (int i = 0; i < size(); i++)
+        {
+            mData[i] = mData[i + 1];
+        }
+        mTail--;
         
+        // MEMORY_POOL만큼 메모리가 남아있을 때 재할당
         if (mMaxSize - mTail >= MEMORY_POOL)
         {
             mMaxSize -= MEMORY_POOL;
@@ -66,7 +71,7 @@ public:
             delete[] mData;
             mData = TData;
         }
-        return mData[mHead++];
+        return mData[mHead];
     }
 
     int size()
