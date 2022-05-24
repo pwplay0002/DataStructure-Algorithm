@@ -38,29 +38,48 @@ public:
 	~CircularQueue()
 	{
 		delete[] data;
+		data = NULL;
 	}
 
 	void push(T value)
 	{
-		// 가득 찬 경우
-		if ((mTail + 1) % mMemSize == mHead) return;
-
-		data[mTail] = value;
-		mTail = (mTail + 1) % MAX_CIRCULAR_QUEUE_SIZE;
+		// 가득 찬 경우 0번째 인덱스부터 덮어 씌움
+		if ((mTail + 1) == mMemSize)
+		{
+			std::cout << "Queue is Full." << std::endl;
+			data[mTail] = value;
+			mTail = 0;
+			if(mTail == mHead) mHead++;
+		}
+		else
+		{
+			data[mTail] = value;
+			mTail++;
+		}
 	}
 
 	T pop()
 	{
-		T temp;
 		if (empty()) return -1;
+
+		T temp;
 		temp = data[mHead];
-		mHead = (mHead + 1) % MAX_CIRCULAR_QUEUE_SIZE;
+
+		if ((mHead + 1) == mMemSize)
+		{
+			mHead = 0;
+		}
+		else
+		{
+			mHead++;
+		}
 		return temp;
 	}
 
 	int size()
 	{
-		if (mTail < mHead) return ((mTail - 1) + (MAX_CIRCULAR_QUEUE_SIZE - mHead));
+		if (mTail == 0 && mHead != 0) return (mMemSize - mHead);
+		else if (mTail < mHead) return (mTail + (mMemSize - mHead));
 		else return mTail - mHead;
 	}
 
@@ -78,13 +97,14 @@ public:
 	T back()
 	{
 		if (empty()) return -1;
+		if (mTail == mMemSize) return data[0];
 		return data[mTail - 1];
 	}
 
 	void PrintQueue()
 	{
 		std::cout << "Queue : ";
-		for (int i = mHead; i < mTail; i++)
+		for (int i = 0; i < mMemSize; i++)
 		{
 			std::cout << data[i] << ' ';
 		}
