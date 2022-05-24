@@ -1,4 +1,5 @@
 #pragma once
+#include <iostream>
 
 // ***** Circular Queue *****
 
@@ -11,21 +12,22 @@ public:
 	// Default Constructor
 	CircularQueue() : mHead(0), mTail(0), mMemSize(MAX_CIRCULAR_QUEUE_SIZE)
 	{
-		data = new T[MAX_CIRCULAR_QUEUE_SIZE];
+		data = new T[mMemSize];
 	}
 	// Custom Constructor
-	CircularQueue(int memSize) : mHead(0), mTail(0) 
+	CircularQueue(int memSize) : mHead(0), mTail(0), mMemSize(memSize)
 	{
 		data = new T[memSize];
 	}
 	// Copy Constructor
-	CircularQueue(const CircularQueue& cq) : mHead(cq.mHead), mTail(cq.mTail), mMemSize(cq.mMemSize)
+	CircularQueue(const CircularQueue<T>& cq) : mHead(cq.mHead), mTail(cq.mTail), mMemSize(cq.mMemSize)
 	{
 		data = new T[mMemSize];
-		for (int i = 0; i < cq.size(); i++) data[i] = cq.data[i];
+		for (int i = 0; i < cq.mMemSize; i++) 
+			data[i] = cq.data[i];
 	}
 	// Move Constructor
-	CircularQueue(CircularQueue&& cq) : : mHead(cq.mHead), mTail(cq.mTail), mMemSize(cq.mMemSize)
+	CircularQueue(CircularQueue<T>&& cq) : mHead(cq.mHead), mTail(cq.mTail), mMemSize(cq.mMemSize)
 	{
 		cq.mHead = 0;
 		cq.mMemSize = 0;
@@ -41,11 +43,7 @@ public:
 	void push(T value)
 	{
 		// °¡µæ Âù °æ¿ì
-		if ((mTail + 1) % MAX_CIRCULAR_QUEUE_SIZE == mHead)
-		{
-			cout << "Is Full" << endl;  
-			return;
-		}
+		if ((mTail + 1) % mMemSize == mHead) return;
 
 		data[mTail] = value;
 		mTail = (mTail + 1) % MAX_CIRCULAR_QUEUE_SIZE;
@@ -83,7 +81,17 @@ public:
 		return data[mTail - 1];
 	}
 
-	bool operator ==(const CircularQueue& cq) const
+	void PrintQueue()
+	{
+		std::cout << "Queue : ";
+		for (int i = mHead; i < mTail; i++)
+		{
+			std::cout << data[i] << ' ';
+		}
+		std::cout << '\n';
+	}
+
+	bool operator ==(const CircularQueue<T>& cq) const
 	{
 		if (mMemSize == cq.mMemSize && mHead == cq.mHead && mTail == cq.mTail)
 		{
@@ -97,12 +105,12 @@ public:
 		else return false;
 	}
 
-	bool operator !=(const CircularQueue& cq) const
+	bool operator !=(const CircularQueue<T>& cq) const
 	{
 		return !(*this == cq);
 	}
 
-private:
+public:
 	int mHead;
 	int mTail;
 	int mMemSize;
