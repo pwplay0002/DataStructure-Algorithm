@@ -17,8 +17,8 @@ public:
     // 정해진다면 이 방법이 더 빠르므로 사용자 정의 생성자를 추가함.
     LinearQueue(int size) : mHead(0), mTail(0), mMaxSize(MEMORY_POOL)
     {
-        if (mMaxSize > size) mData = new T[mMaxSize];
-        else if (mMaxSize <= size)
+        if (mMaxSize >= size) mData = new T[mMaxSize];
+        else if (mMaxSize < size)
         {
             if (size % mMaxSize == 0)
             {

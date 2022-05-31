@@ -150,6 +150,7 @@
     <ClInclude Include="DataStructure\queue\LinearQueue.h" />
     <ClInclude Include="DataStructure\queue\queue.h" />
     <ClInclude Include="DataStructure\stack\stack.h" />
+    <ClInclude Include="deque.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

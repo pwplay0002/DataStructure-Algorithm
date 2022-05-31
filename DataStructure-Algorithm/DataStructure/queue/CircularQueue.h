@@ -12,19 +12,19 @@ public:
 	// Default Constructor
 	CircularQueue() : mHead(0), mTail(0), mMemSize(MAX_CIRCULAR_QUEUE_SIZE)
 	{
-		data = new T[mMemSize];
+		mData = new T[mMemSize];
 	}
 	// Custom Constructor
 	CircularQueue(int memSize) : mHead(0), mTail(0), mMemSize(memSize)
 	{
-		data = new T[memSize];
+		mData = new T[memSize];
 	}
 	// Copy Constructor
 	CircularQueue(const CircularQueue<T>& cq) : mHead(cq.mHead), mTail(cq.mTail), mMemSize(cq.mMemSize)
 	{
-		data = new T[mMemSize];
+		mData = new T[mMemSize];
 		for (int i = 0; i < cq.mMemSize; i++) 
-			data[i] = cq.data[i];
+			mData[i] = cq.mData[i];
 	}
 	// Move Constructor
 	CircularQueue(CircularQueue<T>&& cq) : mHead(cq.mHead), mTail(cq.mTail), mMemSize(cq.mMemSize)
@@ -32,13 +32,13 @@ public:
 		cq.mHead = 0;
 		cq.mMemSize = 0;
 		cq.mTail = 0;
-		cq.data = nullptr;
+		cq.mData = nullptr;
 	}
 	// Destructor
 	~CircularQueue()
 	{
-		delete[] data;
-		data = NULL;
+		delete[] mData;
+		mData = NULL;
 	}
 
 	void push(T value)
@@ -47,13 +47,13 @@ public:
 		if ((mTail + 1) == mMemSize)
 		{
 			std::cout << "Queue is Full." << std::endl;
-			data[mTail] = value;
+			mData[mTail] = value;
 			mTail = 0;
 			if(mTail == mHead) mHead++;
 		}
 		else
 		{
-			data[mTail] = value;
+			mData[mTail] = value;
 			mTail++;
 		}
 	}
@@ -63,7 +63,7 @@ public:
 		if (empty()) return -1;
 
 		T temp;
-		temp = data[mHead];
+		temp = mData[mHead];
 
 		if ((mHead + 1) == mMemSize)
 		{
@@ -91,14 +91,14 @@ public:
 	T front()
 	{
 		if (empty()) return -1;
-		return data[mHead];
+		return mData[mHead];
 	}
 
 	T back()
 	{
 		if (empty()) return -1;
-		if (mTail == mMemSize) return data[0];
-		return data[mTail - 1];
+		if (mTail == mMemSize) return mData[0];
+		return mData[mTail - 1];
 	}
 
 	void PrintQueue()
@@ -106,7 +106,7 @@ public:
 		std::cout << "Queue : ";
 		for (int i = 0; i < mMemSize; i++)
 		{
-			std::cout << data[i] << ' ';
+			std::cout << mData[i] << ' ';
 		}
 		std::cout << '\n';
 	}
@@ -117,7 +117,7 @@ public:
 		{
 			for (int i = 0; i < size(); i++)
 			{
-				if (data[i] != cq.data[i])
+				if (mData[i] != cq.mData[i])
 					return false;
 			}
 			return true;
@@ -134,5 +134,5 @@ public:
 	int mHead;
 	int mTail;
 	int mMemSize;
-	T* data;
+	T* mData;
 };
