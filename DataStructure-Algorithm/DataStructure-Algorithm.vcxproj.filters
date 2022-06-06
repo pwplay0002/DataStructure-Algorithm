@@ -44,8 +44,5 @@
     <ClInclude Include="DataStructure\queue\LinearQueue.h">
       <Filter>DataStructure\queue</Filter>
     </ClInclude>
-    <ClInclude Include="deque.h">
-      <Filter>DataStructure\queue</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
