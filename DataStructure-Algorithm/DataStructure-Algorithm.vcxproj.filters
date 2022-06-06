@@ -15,6 +15,9 @@
     <Filter Include="DataStructure\queue">
       <UniqueIdentifier>{88421ff0-3cfe-492a-a058-471a315b93f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructure\list">
+      <UniqueIdentifier>{c9b632ab-190a-4bf4-89cb-c0623c4f2e92}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -43,6 +46,12 @@
     </ClInclude>
     <ClInclude Include="DataStructure\queue\LinearQueue.h">
       <Filter>DataStructure\queue</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\list\ArrayList.h">
+      <Filter>DataStructure\list</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\list\LinkedList.h">
+      <Filter>DataStructure\list</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

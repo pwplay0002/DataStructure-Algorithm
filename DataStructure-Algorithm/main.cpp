@@ -1,6 +1,5 @@
 #include <iostream>
-#include <stack>
-#include <utility>
+#include "DataStructure/list/LinkedList.h"
 using namespace std;
 
 /*
@@ -12,48 +11,17 @@ using namespace std;
 	5. 더 작은 경우가 나왔다면 그 수의 index 출력.
 */
 
-stack<pair<int, int>> tower; // first : N, second : height
 int main()
 {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
-	int count = 0;
-	int temp = 0;
-	int first = 0;
-	cin >> count;
-	cin >> first;
-	tower.push({ 1, first });
-	cout << 0 << ' ';
-	for (int i = 1; i < count; i++)
-	{
-		// 비교할 숫자
-		cin >> temp;
-
-		while (!tower.empty())
-		{
-			if (tower.top().second > temp)
-			{
-				cout << tower.top().first << ' ';
-				tower.push({ i + 1 , temp });
-				break;
-			}
-			else if (tower.top().second == temp)
-			{
-				cout << tower.top().first << ' ';
-				tower.pop();
-				tower.push({ i + 1 , temp });
-				break;
-			}
-			else if (tower.top().second < temp)
-				tower.pop();
-
-			if (tower.empty())
-			{
-				cout << 0 << ' ';
-				tower.push({ i + 1, temp });
-				break;
-			}
-		}
-	}
+	LinkedList<int> ll;
+	ll.push_front(100);
+	ll.push_front(200);
+	ll.push_front(300);
+	ll.push_back(400);
+	ll.push_back(500);
+	ll.push_back(600);
+	ll.display(ll.begin());
 	return 0;
 }
