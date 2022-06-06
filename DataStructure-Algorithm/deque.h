@@ -1,6 +1,13 @@
 #pragma once
+#include <iostream>
 
 #define MEMORY_POOL 4
+
+inline void error(const char* message)
+{
+	puts(message);
+	exit(EXIT_FAILURE);
+}
 
 template<typename T>
 class deque
@@ -12,7 +19,7 @@ class deque
 	}
 
 	// Custom Constructor
-	deque(int size) : mMaxSize(mMaxSize), mDataSize(0), mHead(0), mTail(0), mMaxSize(MEMORY_POOL)
+	deque(const int size) : mMaxSize(mMaxSize), mDataSize(0), mHead(0), mTail(0), mMaxSize(MEMORY_POOL)
 	{
 		if (mMaxSize >= size) mDeque = new T[mMaxSize];
 		else
@@ -48,12 +55,34 @@ class deque
 		dq.mData = nullptr;
 	}
 
-	// Desturcotr
+	// Desturctor
 	~deque() { delete[] mDeque; }
 
-	void push_back(T value)
+	void push_back(const T value)
 	{
-		
+		if (mDataSize == mMaxSize)
+		{
+			mMaxSize += MEMORY_POOL;
+			T* temp = new T[mMaxSize];
+			mData = temp;
+			temp = nullptr;
+			mData[mTail] = value;
+		}
+	}
+
+	void push_front(const T value)
+	{
+
+	}
+
+	bool empty() const
+	{
+		return (mDataSize == 0);
+	}
+
+	int size() const
+	{
+		return mDataSize;
 	}
 
 private:

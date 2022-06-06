@@ -27,7 +27,7 @@ public:
 			mData[i] = cq.mData[i];
 	}
 	// Move Constructor
-	CircularQueue(CircularQueue<T>&& cq) : mHead(cq.mHead), mTail(cq.mTail), mMemSize(cq.mMemSize)
+	CircularQueue(CircularQueue<T>&& cq) : mHead(cq.mHead), mTail(cq.mTail), mMemSize(cq.mMemSize), mData(cq.mData)
 	{
 		cq.mHead = 0;
 		cq.mMemSize = 0;
