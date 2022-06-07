@@ -146,7 +146,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\list\ArrayList.h" />
+    <ClInclude Include="DataStructure\list\CircularLinkedList.h" />
     <ClInclude Include="DataStructure\list\LinkedList.h" />
+    <ClInclude Include="DataStructure\list\node.h" />
     <ClInclude Include="DataStructure\queue\CircularQueue.h" />
     <ClInclude Include="DataStructure\queue\DynamicQueue.h" />
     <ClInclude Include="DataStructure\queue\LinearQueue.h" />

@@ -1,27 +1,185 @@
 #include <iostream>
-#include "DataStructure/list/LinkedList.h"
 using namespace std;
 
-/*
-	문제 해결 방법
-	1. 숫자가 들어오면 스택 안에 있는 수와 비교
-	2. 스택안에 있는 수(top) 보다 작을 경우 스택안에 그 수를 넣고 앞의 스택 index 출력
-	3. 더 클 경우 스택 안에 있는 수를 pop하면서 작을 경우가 나올 때 까지 비교
-	4. 만약 더 작은 경우가 나오지 않았다면 0출력
-	5. 더 작은 경우가 나왔다면 그 수의 index 출력.
-*/
+template <typename T>
+struct node
+{
+	T data;
+	node<T>* prevNode;
+	node<T>* nextNode;
+};
 
+template <typename T>
+class CircularLinkedList
+{
+public:
+	CircularLinkedList() : m_head(nullptr), m_tail(nullptr) {}
+
+	node<T>* begin() { return m_head; }
+	node<T>* end() { return m_tail; }
+
+	void push_front(T _data)
+	{
+		node<T>* temp = new node<T>();
+		temp->data = _data;
+
+		if (m_head == nullptr)
+		{
+			m_head = temp;
+			m_tail = temp;
+		}
+		else
+		{
+			temp->prevNode = m_tail;
+			temp->nextNode = m_head;
+			m_head = temp;
+			m_tail->nextNode = m_head;
+		}
+	}
+
+	void push_back(T _data)
+	{
+		node<T>* temp = new node<T>();
+		temp->data = _data;
+
+		if (m_head == nullptr)
+		{
+			m_head = temp;
+			m_tail = temp;
+		}
+		else
+		{
+			temp->prevNode = m_tail;
+			m_tail->nextNode = temp;
+			m_tail = temp;
+			temp->nextNode = m_head;
+		}
+	}
+
+	node<T>* previous(node<T>* nextNode)
+	{
+		return nextNode->prevNode;
+	}
+
+	node<T>* next(node<T>* prevNode)
+	{
+		return prevNode->nextNode;
+	}
+
+	// find with value
+	node<T>* find(T _value)
+	{
+		node<T>* temp = begin();
+
+		while (temp != m_tail)
+		{
+			if (temp->data == _value)
+			{
+				return temp;
+			}
+			temp = next(temp);
+		}
+		return temp;
+	}
+
+	void insert(node<T>* prevNode, T _data)
+	{
+		node<T>* temp = new node<T>();
+		temp->data = _data;
+		temp->nextNode = prevNode->nextNode;
+		temp->prevNode = prevNode;
+		prevNode->nextNode = temp;
+	}
+
+	void erase(node<T>* prevNode)
+	{
+		node<T>* prevTemp = prevNode->prevNode;
+		node<T>* nextTemp = prevNode->nextNode;
+		prevNode->prevNode = nextTemp->prevNode;
+		prevNode->nextNode = nextTemp->nextNode;
+
+		delete nextTemp;
+	}
+
+	void display(node<T>* head)
+	{
+		if (head == nullptr)
+		{
+			std::cout << "\n";
+		}
+		else if (head == m_tail)
+		{
+			std::cout << head->data << "\n";
+		}
+		else
+		{
+			std::cout << head->data << " ";
+			display(head->nextNode);
+		}
+		std::cout << std::endl;
+	}
+
+
+private:
+	node<T>* m_head;
+	node<T>* m_tail;
+};
 int main()
 {
 	ios::sync_with_stdio(0);
 	cin.tie(0);
-	LinkedList<int> ll;
-	ll.push_front(100);
-	ll.push_front(200);
-	ll.push_front(300);
-	ll.push_back(400);
-	ll.push_back(500);
-	ll.push_back(600);
-	ll.display(ll.begin());
+	CircularLinkedList<int> cl;
+	//cl.push_front(100);
+	//cl.push_front(200);
+	//cl.push_front(300);
+	cl.push_back(400);
+	cl.push_back(500);
+	cl.push_back(600);
+	cout << cl.previous(cl.begin())->data << endl;
+	cl.display(cl.begin());
+	/*int N, M;
+	string work;
+	cin >> N >> M;
+	for (int i = 0; i < N; i++)
+	{
+		int temp;
+		cin >> temp;
+		cl.push_back(temp);
+	}
+	
+	for (int i = 0; i < M; i++)
+	{
+		cin >> work;
+		int temp1, temp2;
+		if (work == "BN")
+		{
+			cin >> temp1 >> temp2;
+			node<int>* _node = cl.find(temp1);
+			cout << _node->nextNode->data << endl;
+			cl.insert(_node, temp2);
+		}
+		else if (work == "BP")
+		{
+			cin >> temp1 >> temp2;
+			node<int>* _node = cl.find(temp1);
+			cout << _node->prevNode->data << endl;
+			cl.insert(_node->prevNode, temp2);
+		}
+		else if (work == "CN")
+		{
+			cin >> temp1;
+			node<int>* _node = cl.find(temp1);
+			cout << _node->nextNode->data << endl;
+			cl.erase(_node->nextNode);
+		}
+		else if (work == "CP")
+		{
+			cin >> temp1;
+			node<int>* _node = cl.find(temp1);
+			cout << _node->prevNode->data << endl;
+			cl.erase(_node->prevNode);
+		}
+		cl.display(cl.begin());
+	}*/
 	return 0;
 }

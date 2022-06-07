@@ -53,5 +53,11 @@
     <ClInclude Include="DataStructure\list\LinkedList.h">
       <Filter>DataStructure\list</Filter>
     </ClInclude>
+    <ClInclude Include="DataStructure\list\CircularLinkedList.h">
+      <Filter>DataStructure\list</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\list\node.h">
+      <Filter>DataStructure\list</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
