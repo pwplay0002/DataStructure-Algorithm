@@ -30,6 +30,9 @@
     <ClCompile Include="DataStructure\stack\2493_탑_골드5.cpp">
       <Filter>DataStructure\stack</Filter>
     </ClCompile>
+    <ClCompile Include="23309_철도공사_골드5.cpp">
+      <Filter>DataStructure\list</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
@@ -53,7 +56,7 @@
     <ClInclude Include="DataStructure\list\LinkedList.h">
       <Filter>DataStructure\list</Filter>
     </ClInclude>
-    <ClInclude Include="DataStructure\list\CircularLinkedList.h">
+    <ClInclude Include="DataStructure\list\CircularDoublyLinkedList.h">
       <Filter>DataStructure\list</Filter>
     </ClInclude>
     <ClInclude Include="DataStructure\list\node.h">

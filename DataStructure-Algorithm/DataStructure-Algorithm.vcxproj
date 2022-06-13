@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="23309_철도공사_골드5.cpp" />
     <ClCompile Include="DataStructure\stack\10828_스택_실버4.cpp" />
     <ClCompile Include="DataStructure\stack\2493_탑_골드5.cpp" />
     <ClCompile Include="DataStructure\stack\9012_괄호_실버4.cpp" />
@@ -146,7 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\list\ArrayList.h" />
-    <ClInclude Include="DataStructure\list\CircularLinkedList.h" />
+    <ClInclude Include="DataStructure\list\CircularDoublyLinkedList.h" />
     <ClInclude Include="DataStructure\list\LinkedList.h" />
     <ClInclude Include="DataStructure\list\node.h" />
     <ClInclude Include="DataStructure\queue\CircularQueue.h" />
