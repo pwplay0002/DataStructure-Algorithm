@@ -18,6 +18,9 @@
     <Filter Include="DataStructure\list">
       <UniqueIdentifier>{c9b632ab-190a-4bf4-89cb-c0623c4f2e92}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructure\tree">
+      <UniqueIdentifier>{bb28fc38-e279-42bd-8007-6852456570c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -61,6 +64,9 @@
     </ClInclude>
     <ClInclude Include="DataStructure\list\node.h">
       <Filter>DataStructure\list</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructure\tree\BinaryTree.h">
+      <Filter>DataStructure\tree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
