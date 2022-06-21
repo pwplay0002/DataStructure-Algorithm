@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Algoritm">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="DataStructure">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
@@ -21,6 +17,13 @@
     <Filter Include="DataStructure\tree">
       <UniqueIdentifier>{bb28fc38-e279-42bd-8007-6852456570c1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{55c704c8-2caa-49fd-bb14-bdf9a94d6dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -33,7 +36,10 @@
     <ClCompile Include="DataStructure\stack\2493_탑_골드5.cpp">
       <Filter>DataStructure\stack</Filter>
     </ClCompile>
-    <ClCompile Include="23309_철도공사_골드5.cpp">
+    <ClCompile Include="Utility\Timer.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStructure\list\23309_철도공사_골드5.cpp">
       <Filter>DataStructure\list</Filter>
     </ClCompile>
   </ItemGroup>
@@ -65,8 +71,14 @@
     <ClInclude Include="DataStructure\list\node.h">
       <Filter>DataStructure\list</Filter>
     </ClInclude>
-    <ClInclude Include="DataStructure\tree\BinaryTree.h">
+    <ClInclude Include="DataStructure\tree\BinarySearchTree.h">
       <Filter>DataStructure\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Timer.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\MyException.h">
+      <Filter>Utility</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -116,6 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)/Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,11 +140,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="23309_철도공사_골드5.cpp" />
+    <ClCompile Include="DataStructure\list\23309_철도공사_골드5.cpp" />
     <ClCompile Include="DataStructure\stack\10828_스택_실버4.cpp" />
     <ClCompile Include="DataStructure\stack\2493_탑_골드5.cpp" />
     <ClCompile Include="DataStructure\stack\9012_괄호_실버4.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Utility\Timer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\list\ArrayList.h" />
@@ -155,7 +157,9 @@
     <ClInclude Include="DataStructure\queue\LinearQueue.h" />
     <ClInclude Include="DataStructure\queue\queue.h" />
     <ClInclude Include="DataStructure\stack\stack.h" />
-    <ClInclude Include="DataStructure\tree\BinaryTree.h" />
+    <ClInclude Include="DataStructure\tree\BinarySearchTree.h" />
+    <ClInclude Include="Utility\MyException.h" />
+    <ClInclude Include="Utility\Timer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
