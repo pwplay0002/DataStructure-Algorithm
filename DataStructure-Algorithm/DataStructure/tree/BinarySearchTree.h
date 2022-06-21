@@ -24,13 +24,13 @@ public:
 	//! \param data to insert
 	void insert(node<T>* _parant ,const T _data)
 	{
-		if (_data <= 0 && std::find(m_dataArray.begin(), m_dataArray.end(), _data) == vector.end())
+		if (find())
 		{
-			MY_ERROR(Data must be greater than or equal to 1. And No duplicate vertex allowed!);
+			MY_ERROR("Data must be greater than or equal to 1. And No duplicate vertex allowed!");
 			return;
 		}
 			
-		//! insert left-down
+		//! insert left-down if parameter is smaller than parant's data.
 		if (_parant->data > _data)
 		{
 			if (_parant->left == nullptr)
@@ -45,7 +45,7 @@ public:
 				insert_checked(m_root->left, _data);
 			}
 		}
-		//! insert right-down
+		//! insert right-down if parameter is bigger than parant's data.
 		else
 		{
 			_parant->right = temp;
@@ -53,9 +53,12 @@ public:
 	}
 
 private:
+	//! \param insert root node pointer
+	//! \param data to insert
+	//! A function used when it is checked whether data can be added already.
 	void insert_checked(node<T>* _parent, const T _data)
 	{
-		//! insert left-down
+		//! insert left-down if parameter is smaller than parant's data.
 		if (_parant->data > _data)
 		{
 			if (_parant->left == nullptr)
@@ -70,7 +73,7 @@ private:
 				insert_checked(m_root->left, _data);
 			}
 		}
-		//! insert right-down
+		//! insert right-down if parameter is bigger than parant's data.
 		else
 		{
 			_parant->right = temp;
@@ -78,10 +81,67 @@ private:
 	}
 
 public:
-	// ! \param insert data
-	node<T>* find(node<T>* _rootNode, const T _data)
+	//! \param insert data
+	bool find(const T _data)
 	{
+		if (_data <= 0)
+		{
+			MY_ERROR("Data must be greater than or equal to 1.");
+			return;
+		}
+		bool bFind = std::find(m_dataArray.begin(), m_dataArray.end(), _data)!= vector.end();
+		if(!bFind)
+			return false;
+		else
+			return true;
+	}
 
+	void traversal(node<T>* current, T _data)
+	{
+		if (current != null)
+		{
+			if (current->left->data == _data)
+			{
+				current->left = current->left->left;
+				current->right = current->right->right;
+			}
+			else if (current->right->data = _data)
+			{
+
+			}
+			traversal(current->left);
+			traversal(current->right);
+		}
+	}
+
+	void inorder_traversal(node<T>* current)
+	{
+		if (current != null)
+		{
+			inorder_traversal(current->left);
+
+		}
+	}
+	void erase(const T _data)
+	{
+		if (!find()) return;
+		
+		//! erase data with array
+		for (auto it : m_dataArray)
+		{
+			if (m_dataArray[it] == _data)
+			{
+				m_dataArray.erase(it);
+				break;
+			}
+		}
+
+		while (!(m_root->data == _data))
+		{
+			
+		}
+		//! erase data with LinkedList
+		if(this->m_root->data > _data)
 	}
 
 private:
