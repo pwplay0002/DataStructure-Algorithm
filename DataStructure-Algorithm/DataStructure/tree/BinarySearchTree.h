@@ -158,54 +158,42 @@ public:
 		node<T>* ToBeErasedNode = traversal(m_root, _data);
 		node<T>* ToBeErasedNodeParant = ToBeErasedNode->parant;
 
-		//! Initialized To Be Located Node
+		//! Initialize ToBeLocatedNode
 		node<T>* ToBeLocatedNode = nullptr;
+
+		//! ToBeErasedNode->right has value
 		if (ToBeErasedNode->right != nullptr)
 		{
 			ToBeLocatedNode = GetLeft_recursive(ToBeErasedNode->right);
+
+			node<T>* ToBeLocatedNodeParant = ToBeLocatedNode->parant;
+
+			//! Point ToBeLocatedNode's right pointer to TobeLocatedNodeParant
+			if (ToBeLocatedNode->right != nullptr)
+			{
+				ToBeLocatedNodeParant->left = ToBeLocatedNode->right;
+				ToBeLocatedNode->right->parant = ToBeLocatedNodeParant;
+			}
+
+			//! All pointers to ToBeErasedNode point to TobeLocatedNode.
+			if (ToBeErasedNode->left != nullptr)
+			{
+				ToBeErasedNode->left->parant = ToBeLocatedNode;
+				ToBeLocatedNode->left = ToBeErasedNode->left;
+			}
+			if (ToBeErasedNode->right != nullptr)
+			{
+				ToBeErasedNode->right->parant = ToBeLocatedNode;
+				ToBeLocatedNode->right = ToBeErasedNode->right;
+			}
 		}
+		//! ToBeErasedNode->right has not value && ToBeErasedNode->left has value
 		else if (ToBeErasedNode->left != nullptr)
 		{
-			ToBeLocatedNode = GetRight_recursive(ToBeErasedNode->left);
-		}
-		node<T>* ToBeLocatedNodeParant = ToBeLocatedNode->parant;
-
-		//! Point ToBeLocatedNode's right pointer to TobeLocatedNodeParant
-		if (ToBeLocatedNode->right != nullptr)
-		{
-			ToBeLocatedNodeParant->left = ToBeLocatedNode->right;
-			ToBeLocatedNode->right->parant = ToBeLocatedNodeParant;
-		}
-		
-		//! All pointers to ToBeErasedNode point to TobeLocatedNode.
-		if (ToBeErasedNode->left != nullptr)
-		{
-			ToBeErasedNode->left->parant = ToBeLocatedNode;
-			ToBeLocatedNode->left = ToBeErasedNode->left;
-		}
-		if (ToBeErasedNode->right != nullptr)
-		{
-			ToBeErasedNode->right->parant = ToBeLocatedNode;
-			ToBeLocatedNode->right = ToBeErasedNode->right;
+			ToBeErasedNode->left->parant = ToBeErasedNodeParant;
+			ToBeErasedNodeParant->right = ToBeErasedNode->left;
 		}
 
-		if (ToBeErasedNodeParant->left == ToBeErasedNode)
-		{
-			
-		}
-		else if (ToBeErasedNodeParant->right == ToBeErasedNode)
-		{
-
-		}
-
-		if (ToBeLocatedNodeParant->left == ToBeLocatedNode)
-		{
-			
-		}
-		else if (ToBeLocatedNodeParant->right == ToBeLocatedNode)
-		{
-
-		}
 	}
 
 	node<T>* GetLeft_recursive(node<T>* parant)
