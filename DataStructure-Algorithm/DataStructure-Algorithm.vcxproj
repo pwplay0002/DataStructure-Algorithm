@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1991_트리 순회.cpp" />
     <ClCompile Include="DataStructure\list\23309_철도공사_골드5.cpp" />
     <ClCompile Include="DataStructure\stack\10828_스택_실버4.cpp" />
     <ClCompile Include="DataStructure\stack\2493_탑_골드5.cpp" />
