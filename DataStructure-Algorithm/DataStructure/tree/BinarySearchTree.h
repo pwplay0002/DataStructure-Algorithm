@@ -31,7 +31,7 @@ public:
 		m_root->data = _value;
 	}
 
-	node<T>* begin() { if(!m_root) return m_root; }
+	node<T>* begin() { if(m_root) return m_root; }
 
 	//! \param data to insert
 	void insert(const T _data)
@@ -150,14 +150,36 @@ public:
 		}
 	}
 
+	void preorder_traversal(node<T>* current)
+	{
+		if (current != NULL)
+		{
+			cout << current->data << ' ';
+			preorder_traversal(current->left);
+			preorder_traversal(current->right);
+		}
+	}
+
 	void inorder_traversal(node<T>* current)
 	{
 		if (current != NULL)
 		{
 			inorder_traversal(current->left);
-
+			cout << current->data << ' ';
+			inorder_traversal(current->right);
 		}
 	}
+
+	void postorder_traversal(node<T>* current)
+	{
+		if (current != NULL)
+		{
+			postorder_traversal(current->left);
+			postorder_traversal(current->right);
+			cout << current->data << ' ';
+		}
+	}
+
 	void erase(const T _data)
 	{
 		//! check
@@ -180,6 +202,10 @@ public:
 			{
 				ToBeLocatedNodeParant->left = ToBeLocatedNode->right;
 				ToBeLocatedNode->right->parant = ToBeLocatedNodeParant;
+			}
+			else
+			{
+				ToBeLocatedNodeParant->left = nullptr;
 			}
 
 			//! All pointers to ToBeErasedNode point to TobeLocatedNode.
@@ -244,3 +270,36 @@ private:
 	node<T>* m_root = nullptr;
 	std::vector<T> m_dataArray;
 };
+
+// Example Code
+//int main()
+//{
+//	ios::sync_with_stdio(0);
+//	cin.tie(0);
+//	BinarySearchTree<int> bst(41);
+//	bst.insert(29);
+//	bst.insert(55);
+//	bst.insert(16);
+//	bst.insert(33);
+//	bst.insert(70);
+//	bst.insert(60);
+//	bst.insert(50);
+//	bst.insert(80);
+//	bst.insert(57);
+//	bst.insert(65);
+//
+//	bst.erase(55);
+//	cout << "Preorder_traveral : ";
+//	bst.preorder_traversal(bst.begin());
+//	cout << endl;
+//
+//	cout << "Inorder_traveral : ";
+//	bst.inorder_traversal(bst.begin());
+//	cout << endl;
+//
+//	cout << "Postorder_traveral : ";
+//	bst.postorder_traversal(bst.begin());
+//	cout << endl;
+//	return 0;
+//}
+//
