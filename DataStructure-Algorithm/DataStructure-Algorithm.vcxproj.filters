@@ -42,7 +42,7 @@
     <ClCompile Include="DataStructure\list\23309_철도공사_골드5.cpp">
       <Filter>DataStructure\list</Filter>
     </ClCompile>
-    <ClCompile Include="1991_트리 순회.cpp">
+    <ClCompile Include="DataStructure\tree\1991_트리 순회.cpp">
       <Filter>DataStructure\tree</Filter>
     </ClCompile>
   </ItemGroup>
