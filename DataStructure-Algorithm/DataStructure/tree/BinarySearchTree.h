@@ -4,6 +4,7 @@
 
 // ***** Binary Search Tree *****
 // by Doubly Linked list
+// by used static allocation
 
 #define MAX_LIST_SIZE 20000
 template <typename T>
