@@ -5,6 +5,7 @@
 // ***** Binary Search Tree *****
 // by Doubly Linked list
 
+#define MAX_LIST_SIZE 20000
 template <typename T>
 struct node
 {
@@ -13,6 +14,10 @@ struct node
 	node<T>* left = nullptr;
 	node<T>* right = nullptr;
 };
+
+template <typename T>
+node<T> arr[MAX_LIST_SIZE];
+int cnt = 0;
 
 template <typename T>
 class BinarySearchTree
@@ -30,7 +35,7 @@ public:
 	//! \param data to insert
 	void insert(const T _data)
 	{
-		if (find())
+		if (!find(_data))
 		{
 			MY_ERROR("Data must be greater than or equal to 1. And No duplicate vertex allowed!");
 			return;
@@ -41,7 +46,7 @@ public:
 		{
 			if (m_root->left == nullptr)
 			{
-				node<T>* child = new node<T>();
+				node<T>* child = &arr<T>[_data];//new node<T>();
 				child->data = _data;
 				m_root->left = child;
 				child->parant = m_root;
@@ -57,7 +62,7 @@ public:
 		{
 			if (m_root->right == nullptr)
 			{
-				node<T>* child = new node<T>();
+				node<T>* child = &arr<T>[_data];// new node<T>();
 				child->data = _data;
 				m_root->right = child;
 				child->parant = m_root;
@@ -109,23 +114,24 @@ private:
 
 public:
 	//! \param insert data.
-	bool find(const T _data)
+	node<T>* find(const T _data)
 	{
 		if (_data <= 0)
 		{
 			MY_ERROR("Data must be greater than or equal to 1.");
-			return;
+			return nullptr;
 		}
-		bool bFind = std::find(m_dataArray.begin(), m_dataArray.end(), _data)!= vector.end();
-		if(!bFind)
-			return false;
-		else
-			return true;
+		return &arr<T>[_data];
+		//bool bFind = std::find(m_dataArray.begin(), m_dataArray.end(), _data)!= vector.end();
+		//if(!bFind)
+		//	return false;
+		//else
+		//	return true;
 	}
 
 	node<T>* traversal(node<T>* current, T _data)
 	{
-		if (current != null)
+		if (current != NULL)
 		{
 			if (current->left->data == _data)
 			{
@@ -145,7 +151,7 @@ public:
 
 	void inorder_traversal(node<T>* current)
 	{
-		if (current != null)
+		if (current != NULL)
 		{
 			inorder_traversal(current->left);
 
@@ -154,8 +160,8 @@ public:
 	void erase(const T _data)
 	{
 		//! check
-		if (!find()) return;
-		node<T>* ToBeErasedNode = traversal(m_root, _data);
+		if (!find(_data)) return;
+		node<T>* ToBeErasedNode = find(_data);
 		node<T>* ToBeErasedNodeParant = ToBeErasedNode->parant;
 
 		//! Initialize ToBeLocatedNode
@@ -181,11 +187,12 @@ public:
 				ToBeErasedNode->left->parant = ToBeLocatedNode;
 				ToBeLocatedNode->left = ToBeErasedNode->left;
 			}
-			if (ToBeErasedNode->right != nullptr)
-			{
-				ToBeErasedNode->right->parant = ToBeLocatedNode;
-				ToBeLocatedNode->right = ToBeErasedNode->right;
-			}
+
+			ToBeErasedNode->right->parant = ToBeLocatedNode;
+			ToBeLocatedNode->right = ToBeErasedNode->right;
+
+			ToBeErasedNodeParant->right = ToBeLocatedNode;
+			ToBeLocatedNode->parant = ToBeErasedNodeParant;
 		}
 		//! ToBeErasedNode->right has not value && ToBeErasedNode->left has value
 		else if (ToBeErasedNode->left != nullptr)
@@ -193,7 +200,24 @@ public:
 			ToBeErasedNode->left->parant = ToBeErasedNodeParant;
 			ToBeErasedNodeParant->right = ToBeErasedNode->left;
 		}
-
+		//! (ToBeErasedNode->right && ToBeErasedNode->left) has not value
+		else
+		{
+			if (ToBeErasedNodeParant->left == ToBeErasedNode)
+			{
+				ToBeErasedNodeParant->left = nullptr;
+			}
+			else if (ToBeErasedNodeParant->right == ToBeErasedNode)
+			{
+				ToBeErasedNodeParant->right = nullptr;
+			}
+		}
+		
+		if (_data == m_root->data)
+		{
+			m_root = ToBeLocatedNode;
+		}
+		//arr<T>[_data] = nullptr;
 	}
 
 	node<T>* GetLeft_recursive(node<T>* parant)
@@ -202,15 +226,6 @@ public:
 		else
 		{
 			GetLeft_recursive(parant->left);
-		}
-	}
-
-	node<T>* GetRight_recursive(node<T>* parant)
-	{
-		if (parant->left == nullptr) return parant;
-		else
-		{
-			GetRight_recursive(parant->right);
 		}
 	}
 
@@ -225,7 +240,6 @@ public:
 	}
 
 private:
-	bool m_isChecked = false;
 	node<T>* m_root = nullptr;
-	std::vector<T> m_dataArray = 0;
+	std::vector<T> m_dataArray;
 };
