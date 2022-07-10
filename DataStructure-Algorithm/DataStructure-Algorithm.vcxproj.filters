@@ -24,6 +24,9 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
+    <Filter Include="DataStructure\Hash">
+      <UniqueIdentifier>{c3857897-2e70-4868-ba13-80989d68b225}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -44,6 +47,9 @@
     </ClCompile>
     <ClCompile Include="DataStructure\tree\1991_트리 순회.cpp">
       <Filter>DataStructure\tree</Filter>
+    </ClCompile>
+    <ClCompile Include="10866_덱_실버4.cpp">
+      <Filter>DataStructure\list</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +88,12 @@
     </ClInclude>
     <ClInclude Include="Utility\MyException.h">
       <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="deque.h">
+      <Filter>DataStructure\list</Filter>
+    </ClInclude>
+    <ClInclude Include="hash_map.h">
+      <Filter>DataStructure\Hash</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

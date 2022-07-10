@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10866_덱_실버4.cpp" />
     <ClCompile Include="DataStructure\list\23309_철도공사_골드5.cpp" />
     <ClCompile Include="DataStructure\stack\10828_스택_실버4.cpp" />
     <ClCompile Include="DataStructure\stack\2493_탑_골드5.cpp" />
@@ -159,6 +160,8 @@
     <ClInclude Include="DataStructure\queue\queue.h" />
     <ClInclude Include="DataStructure\stack\stack.h" />
     <ClInclude Include="DataStructure\tree\BinarySearchTree.h" />
+    <ClInclude Include="deque.h" />
+    <ClInclude Include="hash_map.h" />
     <ClInclude Include="Utility\MyException.h" />
     <ClInclude Include="Utility\Timer.h" />
   </ItemGroup>
