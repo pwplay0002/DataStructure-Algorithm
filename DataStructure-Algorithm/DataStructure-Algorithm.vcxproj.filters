@@ -96,4 +96,9 @@
       <Filter>DataStructure\Hash</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="hash_map.inl">
+      <Filter>DataStructure\Hash</Filter>
+    </None>
+  </ItemGroup>
 </Project>
