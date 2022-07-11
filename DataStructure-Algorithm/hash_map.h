@@ -1,5 +1,6 @@
 #pragma once
-
+#include <string>
+#include <list>
 // ***** hash_map *****
 // same as unordered_map
 
@@ -8,7 +9,27 @@ template <typename T>
 class hash_map
 {
 public:
-	int hash(T value)
+	int hash(char* value, int len)
+	{
+		int key = 0;
+		for (int i = 0; i < len; i++)
+		{
+			key += value[i];
+		}
+		return key % MAX_TABLE_SIZE;
+	}
+
+	int hash(std::string value)
+	{
+		int key = 0;
+		for (auto i : value)
+		{
+			key += i;
+		}
+		return key % MAX_TABLE_SIZE;
+	}
+
+	int hash(int value)
 	{
 		return value % MAX_TABLE_SIZE;
 	}
