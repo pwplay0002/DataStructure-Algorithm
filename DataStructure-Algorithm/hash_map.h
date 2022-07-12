@@ -4,7 +4,7 @@
 // same as unordered_map
 // if key already exists, ignored without inserting it.
 
-#define MAX_TABLE_SIZE 8191
+#define MAX_BUCKET_SIZE 8191
 template <typename T>
 class hash_map
 {
@@ -13,7 +13,7 @@ public:
 
 	int hash(T value)
 	{
-		return value % MAX_TABLE_SIZE;
+		return value % MAX_BUCKET_SIZE;
 	}
 
 	void insert(T value)
@@ -43,10 +43,9 @@ public:
 	}
 
 private:
-	T _bucket[MAX_TABLE_SIZE];
+	T _bucket[MAX_BUCKET_SIZE];
 	int _bucket_count = 0;
 	int _count = 0;
 };
-
 
 #include "hash_map.inl"

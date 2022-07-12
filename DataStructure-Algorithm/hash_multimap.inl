@@ -1,9 +1,9 @@
-//#include "hash_map.h"
+#include "hash_multimap.h"
 
 template<>
-__inline int hash_map<char*>::hash(char* value)
+__inline int hash_multimap<char*>::hash(char* value)
 {
-	unsigned int key = 0;
+	int key = 0;
 	int count = 0;
 	while (value[count++] != NULL)
 	{
@@ -12,10 +12,10 @@ __inline int hash_map<char*>::hash(char* value)
 	return key % MAX_BUCKET_SIZE;
 }
 
-template<> 
-__inline int hash_map<std::string>::hash(std::string value)
+template<>
+__inline int hash_multimap<std::string>::hash(std::string value)
 {
-	unsigned int key = 0;
+	int key = 0;
 	for (auto i : value)
 	{
 		key += i;

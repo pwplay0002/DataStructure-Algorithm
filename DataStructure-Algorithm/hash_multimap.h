@@ -1,10 +1,10 @@
 #pragma once
 #include <string>
-// ***** hash_map *****
-// same as unordered_map
-// if key already exists, ignored without inserting it.
+#include <list>
+// ***** hash_multimap *****
+// same as unordered_multimap
 
-#define MAX_TABLE_SIZE 8191
+#define MAX_BUCKET_SIZE 8191
 template <typename T>
 class hash_multimap
 {
@@ -13,22 +13,24 @@ public:
 
 	int hash(T value)
 	{
-		return value % MAX_TABLE_SIZE;
+		return value % MAX_BUCKET_SIZE;
 	}
 
 	void insert(T value)
 	{
 		int key = hash(value);
-		if (_bucket[key] == NULL)
-		{
-			_bucket[key] = value;
-			_bucket_count++;
-		}
+		_bucket[key].push_back(value);
+		_bucket_count++;
+
+		//if (_bucket[key] != NULL)
+		//{
+		//	//_bucket[key] = value;
+		//}
 	}
 
 	void erase(T value)
 	{
-		_bucket[hash(value)] = NULL;
+		_bucket[hash(value)].pop_front();
 		_bucket_count--;
 	}
 
@@ -43,7 +45,9 @@ public:
 	}
 
 private:
-	T _bucket[MAX_TABLE_SIZE];
+	std::list<T> _bucket[MAX_BUCKET_SIZE];
 	int _bucket_count = 0;
 	int _count = 0;
 };
+
+#include "hash_multimap.inl"

@@ -109,5 +109,8 @@
     <None Include="hash_map.inl">
       <Filter>DataStructure\Hash</Filter>
     </None>
+    <None Include="hash_multimap.inl">
+      <Filter>DataStructure\Hash</Filter>
+    </None>
   </ItemGroup>
 </Project>
