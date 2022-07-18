@@ -27,6 +27,9 @@
     <Filter Include="DataStructure\Hash">
       <UniqueIdentifier>{c3857897-2e70-4868-ba13-80989d68b225}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructure\Heap">
+      <UniqueIdentifier>{b8c5f7c5-e9d4-4eb1-8a64-d9424599d207}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -56,6 +59,12 @@
     </ClCompile>
     <ClCompile Include="1351_무한 수열_골드5.cpp">
       <Filter>DataStructure\Hash</Filter>
+    </ClCompile>
+    <ClCompile Include="1927_최소 힙_실버2.cpp">
+      <Filter>DataStructure\Heap</Filter>
+    </ClCompile>
+    <ClCompile Include="11279_최대 힙_실버2.cpp">
+      <Filter>DataStructure\Heap</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
