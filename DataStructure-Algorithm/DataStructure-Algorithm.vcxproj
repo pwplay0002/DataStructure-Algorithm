@@ -156,6 +156,7 @@
     <ClCompile Include="DataStructure\tree\1991_트리 순회.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Utility\Timer.cpp" />
+    <ClCompile Include="더 맵게_level2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\list\ArrayList.h" />
@@ -171,6 +172,7 @@
     <ClInclude Include="deque.h" />
     <ClInclude Include="hash_map.h" />
     <ClInclude Include="hash_multimap.h" />
+    <ClInclude Include="heap.h" />
     <ClInclude Include="Utility\MyException.h" />
     <ClInclude Include="Utility\Timer.h" />
   </ItemGroup>

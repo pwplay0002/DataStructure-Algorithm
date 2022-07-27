@@ -66,6 +66,9 @@
     <ClCompile Include="11279_최대 힙_실버2.cpp">
       <Filter>DataStructure\Heap</Filter>
     </ClCompile>
+    <ClCompile Include="더 맵게_level2.cpp">
+      <Filter>DataStructure\Heap</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
@@ -112,6 +115,9 @@
     </ClInclude>
     <ClInclude Include="hash_multimap.h">
       <Filter>DataStructure\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="heap.h">
+      <Filter>DataStructure\Heap</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
