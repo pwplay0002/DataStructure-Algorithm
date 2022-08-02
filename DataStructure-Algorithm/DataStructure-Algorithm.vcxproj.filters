@@ -30,6 +30,9 @@
     <Filter Include="DataStructure\Heap">
       <UniqueIdentifier>{b8c5f7c5-e9d4-4eb1-8a64-d9424599d207}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructure\Graph">
+      <UniqueIdentifier>{635a627e-9b9c-4969-9e59-4fdaa8fa2e9c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -118,6 +121,9 @@
     </ClInclude>
     <ClInclude Include="heap.h">
       <Filter>DataStructure\Heap</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>DataStructure\Graph</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
