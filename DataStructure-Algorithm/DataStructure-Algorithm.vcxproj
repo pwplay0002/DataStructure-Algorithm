@@ -162,6 +162,8 @@
     <ClCompile Include="DataStructure\tree\1991_트리 순회.cpp" />
     <ClCompile Include="DFS.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="myPermutation.cpp" />
+    <ClCompile Include="Permutation.cpp" />
     <ClCompile Include="Utility\Timer.cpp" />
     <ClCompile Include="더 맵게_level2.cpp" />
   </ItemGroup>
