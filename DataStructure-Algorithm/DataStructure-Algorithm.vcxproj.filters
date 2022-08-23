@@ -33,6 +33,9 @@
     <Filter Include="DataStructure\Graph">
       <UniqueIdentifier>{635a627e-9b9c-4969-9e59-4fdaa8fa2e9c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithm\Dynamic_Programming">
+      <UniqueIdentifier>{acabcf83-3728-4a06-8664-8f3488e96258}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -86,6 +89,12 @@
     </ClCompile>
     <ClCompile Include="1260_DFS와 BFS_실버2.cpp">
       <Filter>DataStructure\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="2839_설탕 배달_실버4.cpp">
+      <Filter>Algorithm\Dynamic_Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="1463_1로 만들기_실버3.cpp">
+      <Filter>Algorithm\Dynamic_Programming</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
