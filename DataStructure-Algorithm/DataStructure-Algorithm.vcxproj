@@ -151,6 +151,7 @@
     <ClCompile Include="1463_1로 만들기_실버3.cpp" />
     <ClCompile Include="1920_수 찾기_실버4.cpp" />
     <ClCompile Include="1927_최소 힙_실버2.cpp" />
+    <ClCompile Include="2839_설탕 배달_실버4.cpp" />
     <ClCompile Include="Adjancenc List_인접 리스트.cpp" />
     <ClCompile Include="Adjancenc Matrix _인접 행렬.cpp" />
     <ClCompile Include="BFS.cpp" />
