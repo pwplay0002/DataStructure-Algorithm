@@ -102,6 +102,12 @@
     <ClCompile Include="myPermutation.cpp">
       <Filter>Algorithm\Basic</Filter>
     </ClCompile>
+    <ClCompile Include="combination_recursive.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="combination_3for.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
