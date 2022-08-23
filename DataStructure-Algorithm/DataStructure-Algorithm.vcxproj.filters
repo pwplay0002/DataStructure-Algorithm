@@ -33,6 +33,12 @@
     <Filter Include="DataStructure\Graph">
       <UniqueIdentifier>{635a627e-9b9c-4969-9e59-4fdaa8fa2e9c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithm\Dynamic_Programming">
+      <UniqueIdentifier>{55b96141-6f08-419d-8ae7-7d051055e178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\Basic">
+      <UniqueIdentifier>{699b4af1-14d5-4467-b2ef-3eacdd0431f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -86,6 +92,15 @@
     </ClCompile>
     <ClCompile Include="1260_DFS와 BFS_실버2.cpp">
       <Filter>DataStructure\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="1463_1로 만들기_실버3.cpp">
+      <Filter>Algorithm\Dynamic_Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutation.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="myPermutation.cpp">
+      <Filter>Algorithm\Basic</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
