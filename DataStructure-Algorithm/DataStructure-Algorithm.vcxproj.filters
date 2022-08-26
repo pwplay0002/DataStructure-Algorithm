@@ -42,6 +42,9 @@
     <Filter Include="Algorithm\Dynamic_Programming">
       <UniqueIdentifier>{acabcf83-3728-4a06-8664-8f3488e96258}</UniqueIdentifier>
     </Filter>
+    <Filter Include="백준 문제">
+      <UniqueIdentifier>{7bb9005b-10bf-4edb-9447-7c457d8ac131}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -95,6 +98,30 @@
     </ClCompile>
     <ClCompile Include="1260_DFS와 BFS_실버2.cpp">
       <Filter>DataStructure\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="combination_3for.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="combination_recursive.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="myPermutation.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutation.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="2839_설탕 배달_실버4.cpp">
+      <Filter>Algorithm\Dynamic_Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="prefix_sum (누적합).cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="구현.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="2309_일곱 난쟁이_브론즈1.cpp">
+      <Filter>백준 문제</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
