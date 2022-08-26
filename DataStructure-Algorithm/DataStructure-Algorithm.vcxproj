@@ -144,6 +144,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10808_알파벳 개수_브론즈4.cpp" />
     <ClCompile Include="10866_덱_실버4.cpp" />
     <ClCompile Include="11279_최대 힙_실버2.cpp" />
     <ClCompile Include="1260_DFS와 BFS_실버2.cpp" />
