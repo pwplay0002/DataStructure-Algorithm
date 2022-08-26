@@ -99,6 +99,24 @@
     <ClCompile Include="1260_DFS와 BFS_실버2.cpp">
       <Filter>DataStructure\Graph</Filter>
     </ClCompile>
+    <ClCompile Include="2839_설탕 배달_실버4.cpp">
+      <Filter>Algorithm\Dynamic_Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="1463_1로 만들기_실버3.cpp">
+      <Filter>Algorithm\Dynamic_Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="myPermutation.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Permutation.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="combination_3for.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="combination_recursive.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
     <ClCompile Include="combination_3for.cpp">
       <Filter>Algorithm\Basic</Filter>
     </ClCompile>

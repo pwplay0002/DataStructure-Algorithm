@@ -11,27 +11,27 @@
 //	vector<int> b;
 //
 //	// 1
-//	//for (int i = 0; i < n; i++)
-//	//{
-//	//	for (int j = 0; j < i; j++)
-//	//	{
-//	//		for (int k = 0; k < j; k++)
-//	//		{
-//	//			cout << i << " : " << j << " : " << k << endl;
-//	//		}
-//	//	}
-//	//}
+//	for (int i = 0; i < n; i++)
+//	{
+//		for (int j = 0; j < i; j++)
+//		{
+//			for (int k = 0; k < j; k++)
+//			{
+//				cout << i << " : " << j << " : " << k << endl;
+//			}
+//		}
+//	}
 //
 //	// 2
-//	//for (int i = 0; i < n; i++)
-//	//{
-//	//	for (int j = i + 1; j < n; j++)
-//	//	{
-//	//		for (int k = j + 1; k < n; k++)
-//	//		{
-//	//			cout << i << " : " << j << " : " << k << endl;
-//	//		}
-//	//	}
-//	//}
+//	for (int i = 0; i < n; i++)
+//	{
+//		for (int j = i + 1; j < n; j++)
+//		{
+//			for (int k = j + 1; k < n; k++)
+//			{
+//				cout << i << " : " << j << " : " << k << endl;
+//			}
+//		}
+//	}
 //	return 0;
 //}
