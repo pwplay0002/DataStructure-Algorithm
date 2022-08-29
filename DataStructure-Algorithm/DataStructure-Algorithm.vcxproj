@@ -150,11 +150,13 @@
     <ClCompile Include="11279_최대 힙_실버2.cpp" />
     <ClCompile Include="1159_농구 경기_브론즈2.cpp" />
     <ClCompile Include="11655_ROT13_브론즈1.cpp" />
+    <ClCompile Include="1165_단어퍼즐_다이아몬드4.cpp" />
     <ClCompile Include="1260_DFS와 BFS_실버2.cpp" />
     <ClCompile Include="1351_무한 수열_골드5.cpp" />
     <ClCompile Include="1920_수 찾기_실버4.cpp" />
     <ClCompile Include="1927_최소 힙_실버2.cpp" />
     <ClCompile Include="2309_일곱 난쟁이_브론즈1.cpp" />
+    <ClCompile Include="2559_수열_실버3.cpp" />
     <ClCompile Include="2839_설탕 배달_실버4.cpp" />
     <ClCompile Include="2979_트럭 주차_브론즈2.cpp" />
     <ClCompile Include="9996_한국이 그리울 땐 서버에 접속하지_실버3.cpp" />

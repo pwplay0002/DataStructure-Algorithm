@@ -47,7 +47,7 @@ public:
 		{
 			if (m_root->left == nullptr)
 			{
-				node<T>* child = &arr<T>[_data];//new node<T>();
+				node<T>* child = &psum<T>[_data];//new node<T>();
 				child->data = _data;
 				m_root->left = child;
 				child->parant = m_root;
@@ -63,7 +63,7 @@ public:
 		{
 			if (m_root->right == nullptr)
 			{
-				node<T>* child = &arr<T>[_data];// new node<T>();
+				node<T>* child = &psum<T>[_data];// new node<T>();
 				child->data = _data;
 				m_root->right = child;
 				child->parant = m_root;
@@ -122,7 +122,7 @@ public:
 			MY_ERROR("Data must be greater than or equal to 1.");
 			return nullptr;
 		}
-		return &arr<T>[_data];
+		return &psum<T>[_data];
 		//bool bFind = std::find(m_dataArray.begin(), m_dataArray.end(), _data)!= vector.end();
 		//if(!bFind)
 		//	return false;

@@ -28,7 +28,7 @@ public:
 
 	void push_front(T _data)
 	{
-		node<T>* temp = &arr<T>[cnt++];//new node<T>();
+		node<T>* temp = &psum<T>[cnt++];//new node<T>();
 		temp->data = _data;
 
 		if (m_head == nullptr)
@@ -49,7 +49,7 @@ public:
 
 	void push_back(T _data)
 	{
-		node<T>* temp = &arr<T>[cnt++];//new node<T>();
+		node<T>* temp = &psum<T>[cnt++];//new node<T>();
 		temp->data = _data;
 
 		if (m_head == nullptr)
@@ -82,12 +82,12 @@ public:
 	// find with value
 	node<T>* find(T _value)
 	{
-		return &arr<T>[_value];
+		return &psum<T>[_value];
 	}
 
 	void insert(node<T>* _prevNode, T _data)
 	{
-		node<T>* temp = &arr<T>[cnt++];
+		node<T>* temp = &psum<T>[cnt++];
 		temp->data = _data;
 		temp->nextNode = _prevNode->nextNode;
 		temp->prevNode = _prevNode;
