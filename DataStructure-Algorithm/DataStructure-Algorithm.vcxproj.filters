@@ -129,6 +129,18 @@
     <ClCompile Include="2979_트럭 주차_브론즈2.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="10988_팰린드롬인지 확인하기_브론즈2.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1159_농구 경기_브론즈2.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="11655_ROT13_브론즈1.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="9996_한국이 그리울 땐 서버에 접속하지_실버3.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
