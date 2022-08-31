@@ -120,31 +120,31 @@
     <ClCompile Include="구현.cpp">
       <Filter>Algorithm\Basic</Filter>
     </ClCompile>
-    <ClCompile Include="2309_일곱 난쟁이_브론즈1.cpp">
+    <ClCompile Include="1-A_2309_일곱 난쟁이_브론즈1.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="10808_알파벳 개수_브론즈4.cpp">
+    <ClCompile Include="1-B_10808_알파벳 개수_브론즈4.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="2979_트럭 주차_브론즈2.cpp">
+    <ClCompile Include="1-C_2979_트럭 주차_브론즈2.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="10988_팰린드롬인지 확인하기_브론즈2.cpp">
+    <ClCompile Include="1-D_10988_팰린드롬인지 확인하기_브론즈2.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="1159_농구 경기_브론즈2.cpp">
+    <ClCompile Include="1-E_1159_농구 경기_브론즈2.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="11655_ROT13_브론즈1.cpp">
+    <ClCompile Include="1-F_11655_ROT13_브론즈1.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="9996_한국이 그리울 땐 서버에 접속하지_실버3.cpp">
+    <ClCompile Include="1-G_9996_한국이 그리울 땐 서버에 접속하지_실버3.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="2559_수열_실버3.cpp">
+    <ClCompile Include="1-H_2559_수열_실버3.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="1620_나는야 포켓몬 마스터 이다솜_실버4.cpp">
+    <ClCompile Include="1-I_1620_나는야 포켓몬 마스터 이다솜_실버4.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
   </ItemGroup>
