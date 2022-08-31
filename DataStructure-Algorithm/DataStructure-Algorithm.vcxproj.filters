@@ -144,7 +144,7 @@
     <ClCompile Include="2559_수열_실버3.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="1165_단어퍼즐_다이아몬드4.cpp">
+    <ClCompile Include="1620_나는야 포켓몬 마스터 이다솜_실버4.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
   </ItemGroup>

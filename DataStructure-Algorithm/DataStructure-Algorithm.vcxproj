@@ -150,7 +150,7 @@
     <ClCompile Include="11279_최대 힙_실버2.cpp" />
     <ClCompile Include="1159_농구 경기_브론즈2.cpp" />
     <ClCompile Include="11655_ROT13_브론즈1.cpp" />
-    <ClCompile Include="1165_단어퍼즐_다이아몬드4.cpp" />
+    <ClCompile Include="1620_나는야 포켓몬 마스터 이다솜_실버4.cpp" />
     <ClCompile Include="1260_DFS와 BFS_실버2.cpp" />
     <ClCompile Include="1351_무한 수열_골드5.cpp" />
     <ClCompile Include="1920_수 찾기_실버4.cpp" />
