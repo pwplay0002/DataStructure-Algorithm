@@ -120,6 +120,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(ProjectDir)/Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -145,6 +146,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1-B_10808_알파벳 개수_브론즈4.cpp" />
+    <ClCompile Include="1-J_9375_패션왕 신해빈_실버3.cpp" />
+    <ClCompile Include="1-K_1213_팰린드롬 만들기_실버3.cpp" />
     <ClCompile Include="10866_덱_실버4.cpp" />
     <ClCompile Include="1-D_10988_팰린드롬인지 확인하기_브론즈2.cpp" />
     <ClCompile Include="11279_최대 힙_실버2.cpp" />
