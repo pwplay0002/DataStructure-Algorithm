@@ -159,6 +159,12 @@
     <ClCompile Include="1-M_3986 좋은 단어_실버4.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="1-N_1629 곱셈_실버1.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="1-O_4375 1_실버3.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">

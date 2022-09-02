@@ -150,6 +150,8 @@
     <ClCompile Include="1-K_1213_팰린드롬 만들기_실버3.cpp" />
     <ClCompile Include="1-L_1940 주몽_실버4.cpp" />
     <ClCompile Include="1-M_3986 좋은 단어_실버4.cpp" />
+    <ClCompile Include="1-N_1629 곱셈_실버1.cpp" />
+    <ClCompile Include="1-O_4375 1_실버3.cpp" />
     <ClCompile Include="10866_덱_실버4.cpp" />
     <ClCompile Include="1-D_10988_팰린드롬인지 확인하기_브론즈2.cpp" />
     <ClCompile Include="11279_최대 힙_실버2.cpp" />
