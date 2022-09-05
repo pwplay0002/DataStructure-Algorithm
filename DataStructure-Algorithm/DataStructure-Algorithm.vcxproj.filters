@@ -45,6 +45,9 @@
     <Filter Include="백준 문제">
       <UniqueIdentifier>{7bb9005b-10bf-4edb-9447-7c457d8ac131}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithm\Graph_DFS_BFS">
+      <UniqueIdentifier>{a9c323bc-d4a4-44d5-ad11-05b52d3a700b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -164,6 +167,21 @@
     </ClCompile>
     <ClCompile Include="1-O_4375 1_실버3.cpp">
       <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="Question1.cpp">
+      <Filter>Algorithm\Graph_DFS_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="Question2.cpp">
+      <Filter>Algorithm\Graph_DFS_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs_with_coding_test.cpp">
+      <Filter>Algorithm\Graph_DFS_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="방구쟁이야.cpp">
+      <Filter>Algorithm\Graph_DFS_BFS</Filter>
+    </ClCompile>
+    <ClCompile Include="당근마켓.cpp">
+      <Filter>Algorithm\Graph_DFS_BFS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
