@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="m_bfs.cpp" />
+    <ClCompile Include="m_combination.cpp" />
+    <ClCompile Include="m_dfs.cpp" />
+    <ClCompile Include="m_permutation.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,12 +144,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\DataStructure-Algorithm\m_bfs.cpp" />
-    <ClCompile Include="..\DataStructure-Algorithm\m_combination.cpp" />
-    <ClCompile Include="..\DataStructure-Algorithm\m_dfs.cpp" />
-    <ClCompile Include="..\DataStructure-Algorithm\m_permutation.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
