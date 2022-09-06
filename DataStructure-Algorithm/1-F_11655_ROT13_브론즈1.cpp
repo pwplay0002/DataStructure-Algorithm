@@ -10,7 +10,7 @@
 //	cin.tie(0);
 //
 //	string str;
-//
+//0
 //	getline(cin, str);
 //	for (int i = 0; i < str.length(); i++)
 //	{
