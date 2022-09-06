@@ -28,6 +28,10 @@
 // ● 예제출력
 // 4
 
+#pragma endregion
+
+#pragma region solve
+
 #include <iostream>
 #define endl '\n'
 using namespace std;

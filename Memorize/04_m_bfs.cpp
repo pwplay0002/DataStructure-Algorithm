@@ -1,4 +1,4 @@
-#pragma region bfs
+#pragma region bfs 문제
 
 //승원이는 당근을 좋아해서 당근마킷에 엔지니어로 취업했다.
 //당근을 매우좋아하기 때문에 차도 당근차를 샀다.
@@ -33,6 +33,9 @@
 //
 //● 예제출력
 //9
+#pragma endregion 
+
+#pragma region solve
 
 #include <iostream>
 #include <queue>

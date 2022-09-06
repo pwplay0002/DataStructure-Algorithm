@@ -1,9 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="m_permutation.cpp" />
-    <ClCompile Include="m_bfs.cpp" />
-    <ClCompile Include="m_combination.cpp" />
-    <ClCompile Include="m_dfs.cpp" />
+    <ClCompile Include="01_m_permutation.cpp">
+      <Filter>01_permutation</Filter>
+    </ClCompile>
+    <ClCompile Include="02_m_combination.cpp">
+      <Filter>02_combination</Filter>
+    </ClCompile>
+    <ClCompile Include="03_m_dfs.cpp">
+      <Filter>03_dfs</Filter>
+    </ClCompile>
+    <ClCompile Include="04_m_bfs.cpp">
+      <Filter>04_bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="combination_09_06_복습.cpp">
+      <Filter>02_combination</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs_09_06_복습.cpp">
+      <Filter>03_dfs</Filter>
+    </ClCompile>
+    <ClCompile Include="bfs_09_06_복습.cpp">
+      <Filter>04_bfs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="02_combination">
+      <UniqueIdentifier>{1a45ac25-d641-4354-903e-9f780e439f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_dfs">
+      <UniqueIdentifier>{415b4cdb-a795-4a51-aa59-d889e4d384f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04_bfs">
+      <UniqueIdentifier>{125f6a9d-36da-487d-af90-eb4bd49ab3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_permutation">
+      <UniqueIdentifier>{67190e78-a394-4908-9aad-ae71419e0022}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
