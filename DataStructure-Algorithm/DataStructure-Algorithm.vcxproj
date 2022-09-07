@@ -167,6 +167,7 @@
     <ClCompile Include="2-A_2178_미로탐색_실버1.cpp" />
     <ClCompile Include="2-B_1012_유기농 배추_실버2.cpp" />
     <ClCompile Include="2-C_2468_안전 영역_실버1.cpp" />
+    <ClCompile Include="2-D_2583_영역 구하기_실버1.cpp" />
     <ClCompile Include="2839_설탕 배달_실버4.cpp" />
     <ClCompile Include="1-C_2979_트럭 주차_브론즈2.cpp" />
     <ClCompile Include="1-G_9996_한국이 그리울 땐 서버에 접속하지_실버3.cpp" />
