@@ -189,6 +189,9 @@
     <ClCompile Include="2-B_1012_유기농 배추_실버2.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="2-C_2468_안전 영역_실버1.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
