@@ -201,6 +201,9 @@
     <ClCompile Include="2-F_2828_사과 담기 게임_실버5.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="2-G_2910_빈도 정렬_실버3.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">

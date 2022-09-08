@@ -170,6 +170,7 @@
     <ClCompile Include="2-C_2468_안전 영역_실버1.cpp" />
     <ClCompile Include="2-D_2583_영역 구하기_실버1.cpp" />
     <ClCompile Include="2-F_2828_사과 담기 게임_실버5.cpp" />
+    <ClCompile Include="2-G_2910_빈도 정렬_실버3.cpp" />
     <ClCompile Include="2839_설탕 배달_실버4.cpp" />
     <ClCompile Include="1-C_2979_트럭 주차_브론즈2.cpp" />
     <ClCompile Include="1-G_9996_한국이 그리울 땐 서버에 접속하지_실버3.cpp" />
