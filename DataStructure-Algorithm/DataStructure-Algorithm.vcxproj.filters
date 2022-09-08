@@ -195,6 +195,12 @@
     <ClCompile Include="2-D_2583_영역 구하기_실버1.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="2-E_1992_쿼드트리_실버1.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2-F_2828_사과 담기 게임_실버5.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
