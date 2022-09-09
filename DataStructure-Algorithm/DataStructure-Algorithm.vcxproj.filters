@@ -210,6 +210,15 @@
     <ClCompile Include="2-I_2870_수학숙제_실버4.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="2-J_10709_기상캐스터_실버5.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2-K_3474_교수가 된 현우_실버3.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2-L_2852_NBA 농구_실버3.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
