@@ -204,6 +204,12 @@
     <ClCompile Include="2-G_2910_빈도 정렬_실버3.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="2-H_4659_비밀번호 발음하기_실버5.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2-I_2870_수학숙제_실버4.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
