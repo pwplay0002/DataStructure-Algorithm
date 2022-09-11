@@ -219,6 +219,21 @@
     <ClCompile Include="2-L_2852_NBA 농구_실버3.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="2-M_1436_영화감독 숌_실버5.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2-N_9012_괄호_실버4.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2-O_4949_균형잡힌 세상_실버4.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2-P_14502_연구소_골드4.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="2-Q_2636_치즈_골드4.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
