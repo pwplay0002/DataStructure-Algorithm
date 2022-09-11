@@ -181,6 +181,7 @@
     <ClCompile Include="2-O_4949_균형잡힌 세상_실버4.cpp" />
     <ClCompile Include="2-P_14502_연구소_골드4.cpp" />
     <ClCompile Include="2-Q_2636_치즈_골드4.cpp" />
+    <ClCompile Include="2-R_1068_트리_골드5.cpp" />
     <ClCompile Include="2839_설탕 배달_실버4.cpp" />
     <ClCompile Include="1-C_2979_트럭 주차_브론즈2.cpp" />
     <ClCompile Include="1-G_9996_한국이 그리울 땐 서버에 접속하지_실버3.cpp" />

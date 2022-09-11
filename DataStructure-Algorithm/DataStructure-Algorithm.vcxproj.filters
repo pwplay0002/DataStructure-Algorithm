@@ -234,6 +234,9 @@
     <ClCompile Include="2-Q_2636_치즈_골드4.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="2-R_1068_트리_골드5.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
