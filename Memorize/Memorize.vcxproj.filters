@@ -7,7 +7,7 @@
     <ClCompile Include="02_m_combination.cpp">
       <Filter>02_combination</Filter>
     </ClCompile>
-    <ClCompile Include="03_m_dfs.cpp">
+    <ClCompile Include="03_00_m_dfs.cpp">
       <Filter>03_dfs</Filter>
     </ClCompile>
     <ClCompile Include="04_m_bfs.cpp">
@@ -21,6 +21,9 @@
     </ClCompile>
     <ClCompile Include="bfs_09_06_복습.cpp">
       <Filter>04_bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="03_01_m_dfs_node.cpp">
+      <Filter>03_dfs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
