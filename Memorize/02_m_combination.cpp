@@ -56,12 +56,12 @@ int main()
 using namespace std;
 
 int n = 5, k = 3;
-void print(vector<int> b)
+void print(vector<int>& b)
 {
 	for (int i : b) cout << i << " ";
 	cout << endl;
 }
-void combination(int start, vector<int> b)
+void combination(int start, vector<int>& b)
 {
 	if (b.size() == k)
 	{

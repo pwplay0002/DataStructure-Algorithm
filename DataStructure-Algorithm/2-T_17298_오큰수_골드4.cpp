@@ -33,49 +33,61 @@
 
 #pragma endregion
 
-#pragma region my solve2
+#pragma region solve
 
-#include <iostream>
-#include <list>
-#define endl '\n'
-using namespace std;
-list<int> lst[1000004];
-bool dp[1000004];
-int a[1000004];
-int n;
-int main()
-{
-	ios_base::sync_with_stdio(0); cin.tie(0);
-	fill(&a[0], &a[0] + 100004, -1);
-	cin >> n;
-	for (int i = 0; i < n; i++)
-	{
-		cin >> a[i];
-		if (i >= 1)
-		{
-			if (a[i - 1] < a[i]) dp[i - 1] = 0;
-			else dp[i - 1] = 1;
-		}
-	}
-	int j = 0;
-	for (int i = 0; i < n; i++)
-	{
-		j = i;
-		while (j != n)
-		{
-			if (dp[j] == 0)
-			{
-				if (a[j + 1] > a[i])
-				{
-					cout << a[j + 1] << " ";
-					break;
-				}
-			}
-			j++;
-		}
-		if (j == n) cout << -1 << " ";
-	}
-	return 0;
-}
+//#include <iostream>
+//#include <stack>
+//#define endl '\n'
+//using namespace std;
+//int ret[1000004];
+//int a[1000004];
+//stack<int> s;
+//int n;
+//int main()
+//{
+//	ios_base::sync_with_stdio(0); cin.tie(0);
+//	fill(&ret[0], &ret[0] + 1000004, -1);
+//	cin >> n;
+//	for (int i = 0; i < n; i++)
+//	{
+//		cin >> a[i];
+//		while (s.size() && a[s.top()] < a[i])
+//		{
+//			ret[s.top()] = a[i]; s.pop();
+//		}
+//		s.push(i);
+//	}
+//	for (int i = 0; i < n; i++) cout << ret[i] << " ";
+//}
+
+#pragma endregion
+
+#pragma region my solve from solve
+
+//#include <iostream>
+//#include <stack>
+//using namespace std;
+//
+//int a[1000004];
+//int ret[1000004];
+//stack<int> s;
+//int n;
+//int main()
+//{
+//	ios_base::sync_with_stdio(0); cin.tie(0);
+//	fill(&ret[0], &ret[0] + 1000004, -1);
+//	cin >> n;
+//	for (int i = 0; i < n; i++)
+//	{
+//		cin >> a[i];
+//		while (s.size() && a[s.top()] < a[i])
+//		{
+//			ret[s.top()] = a[i]; s.pop();
+//		}
+//		s.push(i);
+//	}
+//	for (int i = 0; i < n; i++) cout << ret[i] << " ";
+//	return 0;
+//}
 
 #pragma endregion

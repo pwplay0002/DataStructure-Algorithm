@@ -34,9 +34,16 @@
     <ClCompile Include="01_m_permutation.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="05_m_dfs_bfs.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="bfs_09_06_복습.cpp" />
+    <ClCompile Include="bfs_09_15_복습.cpp" />
     <ClCompile Include="combination_09_06_복습.cpp" />
+    <ClCompile Include="combination_09_15_복습.cpp" />
     <ClCompile Include="dfs_09_06_복습.cpp" />
+    <ClCompile Include="dfs_09_15_복습.cpp" />
+    <ClCompile Include="dfs_bfs_09_15_복숩.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

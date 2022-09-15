@@ -25,6 +25,21 @@
     <ClCompile Include="03_01_m_dfs_node.cpp">
       <Filter>03_dfs</Filter>
     </ClCompile>
+    <ClCompile Include="combination_09_15_복습.cpp">
+      <Filter>02_combination</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs_09_15_복습.cpp">
+      <Filter>03_dfs</Filter>
+    </ClCompile>
+    <ClCompile Include="bfs_09_15_복습.cpp">
+      <Filter>04_bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="05_m_dfs_bfs.cpp">
+      <Filter>05_dfs_bfs</Filter>
+    </ClCompile>
+    <ClCompile Include="dfs_bfs_09_15_복숩.cpp">
+      <Filter>05_dfs_bfs</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="02_combination">
@@ -38,6 +53,9 @@
     </Filter>
     <Filter Include="01_permutation">
       <UniqueIdentifier>{67190e78-a394-4908-9aad-ae71419e0022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05_dfs_bfs">
+      <UniqueIdentifier>{c97fbf37-5dd0-4c42-8b25-30fd1753b13a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
