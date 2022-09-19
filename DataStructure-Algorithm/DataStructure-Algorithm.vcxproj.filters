@@ -249,6 +249,12 @@
     <ClCompile Include="3_01_17825_주사위 윷놀이_골드2.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="3_02_17136_색종이 붙이기_골드2.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="3-A_15686_치킨 배달_골드5.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
