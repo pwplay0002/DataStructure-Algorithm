@@ -188,6 +188,7 @@
     <ClCompile Include="1-C_2979_트럭 주차_브론즈2.cpp" />
     <ClCompile Include="1-G_9996_한국이 그리울 땐 서버에 접속하지_실버3.cpp" />
     <ClCompile Include="3-A_15686_치킨 배달_골드5.cpp" />
+    <ClCompile Include="3-B_2589_보물섬_골드5.cpp" />
     <ClCompile Include="3_00_1189_컴백홈_실버1.cpp" />
     <ClCompile Include="3_01_17825_주사위 윷놀이_골드2.cpp" />
     <ClCompile Include="3_02_17136_색종이 붙이기_골드2.cpp" />
