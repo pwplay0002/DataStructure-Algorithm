@@ -39,6 +39,7 @@
     </ClCompile>
     <ClCompile Include="bfs_09_06_복습.cpp" />
     <ClCompile Include="bfs_09_15_복습.cpp" />
+    <ClCompile Include="bfs_09_19_복습.cpp" />
     <ClCompile Include="combination_09_06_복습.cpp" />
     <ClCompile Include="combination_09_15_복습.cpp" />
     <ClCompile Include="dfs_09_06_복습.cpp" />

@@ -258,6 +258,12 @@
     <ClCompile Include="3-B_2589_보물섬_골드5.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="3-C_16234_인구 이동_골드5.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="3-D_4179_불!_골드4.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">

@@ -40,6 +40,9 @@
     <ClCompile Include="dfs_bfs_09_15_복숩.cpp">
       <Filter>05_dfs_bfs</Filter>
     </ClCompile>
+    <ClCompile Include="bfs_09_19_복습.cpp">
+      <Filter>04_bfs</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="02_combination">
