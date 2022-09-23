@@ -264,6 +264,18 @@
     <ClCompile Include="3-D_4179_불!_골드4.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="3-E_12869_뮤탈리스크_골드4.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="3-F_16637_괄호 추가하기_골드4.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="3-G_12851_숨바꼭질 2_골드4.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="3-H_13913_숨바꼭질 4_골드4.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
