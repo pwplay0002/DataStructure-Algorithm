@@ -279,6 +279,9 @@
     <ClCompile Include="0-0_template.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="3-I_17071_숨바꼭질 5.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">

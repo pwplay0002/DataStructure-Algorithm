@@ -51,49 +51,98 @@
 
 #pragma region solve2
 
-#include <iostream>
-#include <algorithm>
-#include <vector>
-#include <queue>
-#define endl '\n'
-using namespace std;
-const int max_n = 200000;
-vector<int> v;
-queue<int> q;
-int visited[max_n], _prev[max_n];
-int n, k, here, ret;
-int main()
-{
-	ios_base::sync_with_stdio(0); cin.tie(0);
-	cin >> n >> k;
+//#include <iostream>
+//#include <algorithm>
+//#include <vector>
+//#include <queue>
+//#define endl '\n'
+//using namespace std;
+//const int max_n = 200000;
+//vector<int> v;
+//queue<int> q;
+//int visited[max_n], _prev[max_n];
+//int n, k, here, ret;
+//int main()
+//{
+//	ios_base::sync_with_stdio(0); cin.tie(0);
+//	cin >> n >> k;
+//
+//	visited[n] = 1;
+//	q.push(n);
+//	while (q.size())
+//	{
+//		here = q.front(); q.pop();
+//		if(here == k)
+//		{
+//			ret = visited[here];
+//			break;
+//		}
+//		for(int next : {here + 1, here -1 , here * 2})
+//		{
+//			if (next >= max_n || next < 0 || visited[next]) continue;
+//			visited[next] = visited[here] + 1;
+//			_prev[next] = here;
+//			q.push(next);
+//		}
+//	}
+//	for(int i = k; i != n; i = _prev[i])
+//	{
+//		v.push_back(i);
+//	}
+//	v.push_back(n);
+//	cout << ret - 1 << endl;
+//	reverse(v.begin(), v.end());
+//	for (int i : v) cout << i << " ";
+//	return 0;
+//}
 
-	visited[n] = 1;
-	q.push(n);
-	while (q.size())
-	{
-		here = q.front(); q.pop();
-		if(here == k)
-		{
-			ret = visited[here];
-			break;
-		}
-		for(int next : {here + 1, here -1 , here * 2})
-		{
-			if (next >= max_n || next < 0 || visited[next]) continue;
-			visited[next] = visited[here] + 1;
-			_prev[next] = here;
-			q.push(next);
-		}
-	}
-	for(int i = k; i != n; i = _prev[i])
-	{
-		v.push_back(i);
-	}
-	v.push_back(n);
-	cout << ret - 1 << endl;
-	reverse(v.begin(), v.end());
-	for (int i : v) cout << i << " ";
-	return 0;
-}
+#pragma endregion
+
+
+#pragma region practice
+
+//#include <iostream>
+//#include <algorithm>
+//#include <vector>
+//#include <queue>
+//#define endl '\n'
+//using namespace std;
+//int n, k, ret, here;
+//const int max_n = 200000;
+//vector<int> v;
+//queue<int> q;
+//int visited[max_n], _prev[max_n];
+//int main()
+//{
+//	ios_base::sync_with_stdio(0); cin.tie(0);
+//	cin >> n >> k;
+//	visited[n] = 1;
+//	q.push(n);
+//	while (q.size())
+//	{
+//		here = q.front(); q.pop();
+//		if(here == k)
+//		{
+//			ret = visited[k];
+//			break;
+//		}
+//		for(int next : {here + 1, here -1, here * 2})
+//		{
+//			if (next < 0 || next >= max_n || visited[next]) continue;
+//			visited[next] = visited[here] + 1;
+//			_prev[next] = here;
+//			q.push(next);
+//		}
+//	}
+//	for(int i = k; i != n; i = _prev[i])
+//	{
+//		v.push_back(i);
+//	}
+//	v.push_back(n);
+//	reverse(v.begin(), v.end());
+//	cout << ret - 1 << endl;
+//	for (int i : v) cout << i << " ";
+//	return 0;
+//}
 
 #pragma endregion
