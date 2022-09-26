@@ -279,7 +279,10 @@
     <ClCompile Include="0-0_template.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="3-I_17071_숨바꼭질 5.cpp">
+    <ClCompile Include="3-I_17071_숨바꼭질 5_플레5.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="3-J_14497_주난의 난%28難%29_골드4.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
   </ItemGroup>

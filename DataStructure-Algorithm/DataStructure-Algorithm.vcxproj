@@ -196,7 +196,8 @@
     <ClCompile Include="3-F_16637_괄호 추가하기_골드4.cpp" />
     <ClCompile Include="3-G_12851_숨바꼭질 2_골드4.cpp" />
     <ClCompile Include="3-H_13913_숨바꼭질 4_골드4.cpp" />
-    <ClCompile Include="3-I_17071_숨바꼭질 5.cpp" />
+    <ClCompile Include="3-I_17071_숨바꼭질 5_플레5.cpp" />
+    <ClCompile Include="3-J_14497_주난의 난%28難%29_골드4.cpp" />
     <ClCompile Include="3_00_1189_컴백홈_실버1.cpp" />
     <ClCompile Include="3_01_17825_주사위 윷놀이_골드2.cpp" />
     <ClCompile Include="3_02_17136_색종이 붙이기_골드2.cpp" />
