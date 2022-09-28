@@ -291,6 +291,9 @@
     <ClCompile Include="3-L_1987_알파벳_골드4.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="3-M_2529_부등호_실버1.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
