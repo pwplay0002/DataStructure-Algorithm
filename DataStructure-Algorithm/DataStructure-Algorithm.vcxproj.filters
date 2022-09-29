@@ -297,6 +297,9 @@
     <ClCompile Include="3-N_9934_완전 이진 트리_실버1.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="3-O_15684_사다리 조작.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
