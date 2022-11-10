@@ -210,6 +210,8 @@
     <ClCompile Include="Adjancenc List_인접 리스트.cpp" />
     <ClCompile Include="Adjancenc Matrix _인접 행렬.cpp" />
     <ClCompile Include="BFS.cpp" />
+    <ClCompile Include="bitmasking_경우의 수.cpp" />
+    <ClCompile Include="bit_operator.cpp" />
     <ClCompile Include="combination_3for.cpp" />
     <ClCompile Include="combination_recursive.cpp" />
     <ClCompile Include="DataStructure\list\23309_철도공사_골드5.cpp" />
@@ -226,10 +228,17 @@
     <ClCompile Include="Question1.cpp" />
     <ClCompile Include="Question2.cpp" />
     <ClCompile Include="Utility\Timer.cpp" />
+    <ClCompile Include="[대학] 경찰 출동.cpp" />
+    <ClCompile Include="[대학] 이게 왜 안돌아가 이건 왜 돌아가.cpp" />
+    <ClCompile Include="[대학] 잠자는 사자.cpp" />
+    <ClCompile Include="[모의] 근묵자흑.cpp" />
+    <ClCompile Include="[모의] 문제 선정하기.cpp" />
     <ClCompile Include="구현.cpp" />
+    <ClCompile Include="금은보화.cpp" />
     <ClCompile Include="당근마켓.cpp" />
     <ClCompile Include="더 맵게_level2.cpp" />
     <ClCompile Include="방구쟁이야.cpp" />
+    <ClCompile Include="신규 아이디 추천_Lv1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\list\ArrayList.h" />

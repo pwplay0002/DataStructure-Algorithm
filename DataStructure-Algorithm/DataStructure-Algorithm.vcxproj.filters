@@ -48,6 +48,18 @@
     <Filter Include="Algorithm\Graph_DFS_BFS">
       <UniqueIdentifier>{a9c323bc-d4a4-44d5-ad11-05b52d3a700b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Algorithm\Bitmasking">
+      <UniqueIdentifier>{724971f5-b48f-4a94-bc47-9d35b3f000eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="한성대 코딩테스트">
+      <UniqueIdentifier>{25db135b-5dea-4adc-b8f8-c137671be8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="경희대 코딩테스트">
+      <UniqueIdentifier>{bed7f913-5ef3-484f-a635-d610b0e234c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2021 KAKAO BLIND RECRUITMENT">
+      <UniqueIdentifier>{dfe3ff4d-cfa8-4d3c-b873-d9384ab21121}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -302,6 +314,33 @@
     </ClCompile>
     <ClCompile Include="3-P_14620_꽃길.cpp">
       <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="bit_operator.cpp">
+      <Filter>Algorithm\Bitmasking</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmasking_경우의 수.cpp">
+      <Filter>Algorithm\Bitmasking</Filter>
+    </ClCompile>
+    <ClCompile Include="[모의] 문제 선정하기.cpp">
+      <Filter>한성대 코딩테스트</Filter>
+    </ClCompile>
+    <ClCompile Include="[모의] 근묵자흑.cpp">
+      <Filter>한성대 코딩테스트</Filter>
+    </ClCompile>
+    <ClCompile Include="금은보화.cpp">
+      <Filter>경희대 코딩테스트</Filter>
+    </ClCompile>
+    <ClCompile Include="[대학] 경찰 출동.cpp">
+      <Filter>한성대 코딩테스트</Filter>
+    </ClCompile>
+    <ClCompile Include="[대학] 잠자는 사자.cpp">
+      <Filter>한성대 코딩테스트</Filter>
+    </ClCompile>
+    <ClCompile Include="[대학] 이게 왜 안돌아가 이건 왜 돌아가.cpp">
+      <Filter>한성대 코딩테스트</Filter>
+    </ClCompile>
+    <ClCompile Include="신규 아이디 추천_Lv1.cpp">
+      <Filter>2021 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
