@@ -339,7 +339,10 @@
     <ClCompile Include="[대학] 이게 왜 안돌아가 이건 왜 돌아가.cpp">
       <Filter>한성대 코딩테스트</Filter>
     </ClCompile>
-    <ClCompile Include="신규 아이디 추천_Lv1.cpp">
+    <ClCompile Include="Lv1_신규 아이디 추천.cpp">
+      <Filter>2021 KAKAO BLIND RECRUITMENT</Filter>
+    </ClCompile>
+    <ClCompile Include="Lv2_메뉴 리뉴얼.cpp">
       <Filter>2021 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
   </ItemGroup>

@@ -221,6 +221,7 @@
     <ClCompile Include="DataStructure\tree\1991_트리 순회.cpp" />
     <ClCompile Include="DFS.cpp" />
     <ClCompile Include="dfs_with_coding_test.cpp" />
+    <ClCompile Include="Lv2_메뉴 리뉴얼.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="myPermutation.cpp" />
     <ClCompile Include="Permutation.cpp" />
@@ -238,7 +239,7 @@
     <ClCompile Include="당근마켓.cpp" />
     <ClCompile Include="더 맵게_level2.cpp" />
     <ClCompile Include="방구쟁이야.cpp" />
-    <ClCompile Include="신규 아이디 추천_Lv1.cpp" />
+    <ClCompile Include="Lv1_신규 아이디 추천.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\list\ArrayList.h" />
