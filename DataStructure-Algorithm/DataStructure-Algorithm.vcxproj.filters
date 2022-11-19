@@ -345,6 +345,9 @@
     <ClCompile Include="Lv2_메뉴 리뉴얼.cpp">
       <Filter>2021 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
+    <ClCompile Include="Lv2_순위 검색.cpp">
+      <Filter>2021 KAKAO BLIND RECRUITMENT</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
