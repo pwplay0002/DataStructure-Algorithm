@@ -17,9 +17,6 @@
     <Filter Include="DataStructure\tree">
       <UniqueIdentifier>{bb28fc38-e279-42bd-8007-6852456570c1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Utility">
-      <UniqueIdentifier>{55c704c8-2caa-49fd-bb14-bdf9a94d6dd2}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Algorithm">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
@@ -71,9 +68,6 @@
     </ClCompile>
     <ClCompile Include="DataStructure\stack\2493_탑_골드5.cpp">
       <Filter>DataStructure\stack</Filter>
-    </ClCompile>
-    <ClCompile Include="Utility\Timer.cpp">
-      <Filter>Utility</Filter>
     </ClCompile>
     <ClCompile Include="DataStructure\list\23309_철도공사_골드5.cpp">
       <Filter>DataStructure\list</Filter>
@@ -379,12 +373,6 @@
     </ClInclude>
     <ClInclude Include="DataStructure\tree\BinarySearchTree.h">
       <Filter>DataStructure\tree</Filter>
-    </ClInclude>
-    <ClInclude Include="Utility\Timer.h">
-      <Filter>Utility</Filter>
-    </ClInclude>
-    <ClInclude Include="Utility\MyException.h">
-      <Filter>Utility</Filter>
     </ClInclude>
     <ClInclude Include="deque.h">
       <Filter>DataStructure\list</Filter>

@@ -43,6 +43,9 @@
     <ClCompile Include="bfs_09_19_복습.cpp">
       <Filter>04_bfs</Filter>
     </ClCompile>
+    <ClCompile Include="01_Bitmasking_경우의 수.cpp">
+      <Filter>06_Bitmasking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="02_combination">
@@ -59,6 +62,9 @@
     </Filter>
     <Filter Include="05_dfs_bfs">
       <UniqueIdentifier>{c97fbf37-5dd0-4c42-8b25-30fd1753b13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06_Bitmasking">
+      <UniqueIdentifier>{28c5f5bc-c39e-4258-99dd-9e5c8290dabc}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

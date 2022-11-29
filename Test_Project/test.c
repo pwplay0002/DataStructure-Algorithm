@@ -1,7 +1,8 @@
 //#include <stdio.h>
-//
+//#include <vector>
 //int main()
 //{
+//	
 //	double m, w;
 //	printf("몸무게 입력 : ");
 //	scanf("%lf\n", &m);
