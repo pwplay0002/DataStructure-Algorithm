@@ -46,6 +46,9 @@
     <ClCompile Include="01_Bitmasking_경우의 수.cpp">
       <Filter>06_Bitmasking</Filter>
     </ClCompile>
+    <ClCompile Include="02_Bitmasking_매개변수 전달.cpp">
+      <Filter>06_Bitmasking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="02_combination">
