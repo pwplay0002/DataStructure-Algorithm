@@ -342,7 +342,13 @@
     <ClCompile Include="Lv2_순위 검색.cpp">
       <Filter>2021 KAKAO BLIND RECRUITMENT</Filter>
     </ClCompile>
-    <ClCompile Include="4-A19942_다이어트_골드5.cpp">
+    <ClCompile Include="4-A_19942_다이어트_골드5.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="split.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="4-B_동전뒤집기.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
   </ItemGroup>

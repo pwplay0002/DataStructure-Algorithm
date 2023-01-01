@@ -57,3 +57,25 @@
 //}
 
 #pragma endregion
+
+#pragma region practice 2
+
+//#include <iostream>
+//using namespace std;
+//
+//string s[4] = { "a", "b", "c", "d" };
+//int main()
+//{
+//	for(int i = 0; i < (1<<4); i++)
+//	{
+//		string ret = "";
+//		for(int j = 0; j < 4; j++)
+//		{
+//			if (i & (1 << j)) ret += (s[j] + " ");
+//		}
+//		cout << ret << '\n';
+//	}
+//	return 0;
+//}
+
+#pragma endregion
