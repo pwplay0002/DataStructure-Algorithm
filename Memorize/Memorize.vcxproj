@@ -39,6 +39,7 @@
     <ClCompile Include="05_m_dfs_bfs.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="2023_01_01_복습.cpp" />
     <ClCompile Include="bfs_09_06_복습.cpp" />
     <ClCompile Include="bfs_09_15_복습.cpp" />
     <ClCompile Include="bfs_09_19_복습.cpp" />

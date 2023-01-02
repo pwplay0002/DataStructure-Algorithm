@@ -351,6 +351,9 @@
     <ClCompile Include="4-B_동전뒤집기.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="4-C_17471_게리맨더링.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">

@@ -49,6 +49,9 @@
     <ClCompile Include="02_Bitmasking_매개변수 전달.cpp">
       <Filter>06_Bitmasking</Filter>
     </ClCompile>
+    <ClCompile Include="2023_01_01_복습.cpp">
+      <Filter>00_복습</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="02_combination">
@@ -68,6 +71,9 @@
     </Filter>
     <Filter Include="06_Bitmasking">
       <UniqueIdentifier>{28c5f5bc-c39e-4258-99dd-9e5c8290dabc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_복습">
+      <UniqueIdentifier>{6e07c9b9-3dfa-4834-9def-67e3640325b2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
