@@ -216,26 +216,54 @@
 
 #pragma region 01_01_Bitmasking_경우의 수
 
+//#include <iostream>
+//using namespace std;
+//
+//const int n = 4;
+//string a[4] = { "a", "b", "c", "d" };
+//int main()
+//{
+//	for(int i = 0; i < (1<<n); i++)
+//	{
+//		string ret = "";
+//		for(int j = 0; j < n; j++)
+//		{
+//			if(i & (1 << j))
+//			{
+//				ret += (a[j] + " ");
+//			}
+//		}
+//		cout << ret << endl;
+//	}
+//	return 0;
+//}
+
+#pragma endregion
+
+#pragma region 01_09_Bitmasking_경우의 수 int version
+
 #include <iostream>
+#include <vector>
 using namespace std;
 
 const int n = 4;
-string a[4] = { "a", "b", "c", "d" };
+vector<int> v = { 1,2,3,4 };
 int main()
 {
 	for(int i = 0; i < (1<<n); i++)
 	{
-		string ret = "";
+		vector<int> vt;
 		for(int j = 0; j < n; j++)
 		{
 			if(i & (1 << j))
 			{
-				ret += (a[j] + " ");
+				vt.push_back(v[j]);
 			}
 		}
-		cout << ret << endl;
+		for (int j : vt) cout << j << " ";
+		cout << endl;
 	}
 	return 0;
 }
 
-#pragma endregion
+#pragma endregion 
