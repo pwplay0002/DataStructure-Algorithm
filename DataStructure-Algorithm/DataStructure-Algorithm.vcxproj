@@ -222,6 +222,8 @@
     <ClCompile Include="4-A_19942_다이어트_골드5.cpp" />
     <ClCompile Include="4-B_동전뒤집기.cpp" />
     <ClCompile Include="4-C_17471_게리맨더링_골드4.cpp" />
+    <ClCompile Include="4-E_14890_경사로_골드3.cpp" />
+    <ClCompile Include="4-F_1062_가르침_골드4.cpp" />
     <ClCompile Include="Adjanceny List_인접 리스트.cpp" />
     <ClCompile Include="Adjanceny Matrix _인접 행렬.cpp" />
     <ClCompile Include="BFS.cpp" />

@@ -354,6 +354,12 @@
     <ClCompile Include="4-C_17471_게리맨더링_골드4.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="4-E_14890_경사로_골드3.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="4-F_1062_가르침_골드4.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
