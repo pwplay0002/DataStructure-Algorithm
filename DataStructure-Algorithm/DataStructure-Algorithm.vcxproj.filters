@@ -360,6 +360,12 @@
     <ClCompile Include="4-F_1062_가르침_골드4.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="4-G_1094_막대기_실버5.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="n진법 변환.cpp">
+      <Filter>Algorithm\Basic</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
