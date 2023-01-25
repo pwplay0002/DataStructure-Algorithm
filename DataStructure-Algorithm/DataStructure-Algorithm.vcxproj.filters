@@ -366,6 +366,12 @@
     <ClCompile Include="n진법 변환.cpp">
       <Filter>Algorithm\Basic</Filter>
     </ClCompile>
+    <ClCompile Include="4-H_2234_성곽.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="4-I_11723_집합_실버5.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">

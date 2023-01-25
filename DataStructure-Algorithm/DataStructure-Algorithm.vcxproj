@@ -123,7 +123,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>true</SDLCheck>
+      <SDLCheck>false</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(ProjectDir)/Utility;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -225,6 +225,8 @@
     <ClCompile Include="4-E_14890_경사로_골드3.cpp" />
     <ClCompile Include="4-F_1062_가르침_골드4.cpp" />
     <ClCompile Include="4-G_1094_막대기_실버5.cpp" />
+    <ClCompile Include="4-H_2234_성곽.cpp" />
+    <ClCompile Include="4-I_11723_집합_실버5.cpp" />
     <ClCompile Include="Adjanceny List_인접 리스트.cpp" />
     <ClCompile Include="Adjanceny Matrix _인접 행렬.cpp" />
     <ClCompile Include="BFS.cpp" />
