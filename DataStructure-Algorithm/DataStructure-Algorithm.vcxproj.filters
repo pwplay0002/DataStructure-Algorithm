@@ -372,6 +372,9 @@
     <ClCompile Include="4-I_11723_집합_실버5.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="4-J_14393_종이 조각.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">

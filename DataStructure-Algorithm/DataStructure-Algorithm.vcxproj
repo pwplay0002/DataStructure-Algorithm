@@ -227,6 +227,7 @@
     <ClCompile Include="4-G_1094_막대기_실버5.cpp" />
     <ClCompile Include="4-H_2234_성곽.cpp" />
     <ClCompile Include="4-I_11723_집합_실버5.cpp" />
+    <ClCompile Include="4-J_14393_종이 조각.cpp" />
     <ClCompile Include="Adjanceny List_인접 리스트.cpp" />
     <ClCompile Include="Adjanceny Matrix _인접 행렬.cpp" />
     <ClCompile Include="BFS.cpp" />
