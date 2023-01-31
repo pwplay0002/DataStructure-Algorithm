@@ -309,10 +309,10 @@
     <ClCompile Include="3-P_14620_꽃길_실버2.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="bit_operator.cpp">
+    <ClCompile Include="00_bit_operator.cpp">
       <Filter>Algorithm\Bitmasking</Filter>
     </ClCompile>
-    <ClCompile Include="bitmasking_경우의 수.cpp">
+    <ClCompile Include="05_bitmasking_경우의 수.cpp">
       <Filter>Algorithm\Bitmasking</Filter>
     </ClCompile>
     <ClCompile Include="[모의] 문제 선정하기.cpp">
@@ -375,6 +375,12 @@
     <ClCompile Include="4-J_14393_종이 조각.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="01_bit_operator_+_-.txt">
+      <Filter>Algorithm\Bitmasking</Filter>
+    </ClCompile>
+    <ClCompile Include="04_bit_operator_XOR.txt">
+      <Filter>Algorithm\Bitmasking</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
@@ -430,5 +436,13 @@
     <None Include="hash_multimap.inl">
       <Filter>DataStructure\Hash</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="02_bit_operator_AND_OR.txt">
+      <Filter>Algorithm\Bitmasking</Filter>
+    </Text>
+    <Text Include="03_bit_operator_shift_.txt">
+      <Filter>Algorithm\Bitmasking</Filter>
+    </Text>
   </ItemGroup>
 </Project>
