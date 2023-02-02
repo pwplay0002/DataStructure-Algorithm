@@ -158,7 +158,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="0-0_template.cpp" />
-    <ClCompile Include="04_bit_operator_XOR.txt" />
+    <None Include="04_bit_operator_XOR.txt" />
     <ClCompile Include="1-B_10808_알파벳 개수_브론즈4.cpp" />
     <ClCompile Include="1-J_9375_패션왕 신해빈_실버3.cpp" />
     <ClCompile Include="1-K_1213_팰린드롬 만들기_실버3.cpp" />
@@ -229,12 +229,13 @@
     <ClCompile Include="4-H_2234_성곽.cpp" />
     <ClCompile Include="4-I_11723_집합_실버5.cpp" />
     <ClCompile Include="4-J_14393_종이 조각.cpp" />
+    <ClCompile Include="4-K_13244_Tree.cpp" />
     <ClCompile Include="Adjanceny List_인접 리스트.cpp" />
     <ClCompile Include="Adjanceny Matrix _인접 행렬.cpp" />
     <ClCompile Include="BFS.cpp" />
     <ClCompile Include="05_bitmasking_경우의 수.cpp" />
     <ClCompile Include="00_bit_operator.cpp" />
-    <ClCompile Include="01_bit_operator_+_-.txt" />
+    <None Include="01_bit_operator_+_-.txt" />
     <ClCompile Include="combination_3for.cpp" />
     <ClCompile Include="combination_recursive.cpp" />
     <ClCompile Include="DataStructure\list\23309_철도공사_골드5.cpp" />
@@ -288,8 +289,8 @@
     <None Include="hash_multimap.inl" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="02_bit_operator_AND_OR.txt" />
-    <Text Include="03_bit_operator_shift_.txt" />
+    <None Include="02_bit_operator_AND_OR.txt" />
+    <None Include="03_bit_operator_shift_.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
