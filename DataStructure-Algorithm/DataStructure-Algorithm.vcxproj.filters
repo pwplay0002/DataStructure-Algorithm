@@ -366,19 +366,22 @@
     <ClCompile Include="n진법 변환.cpp">
       <Filter>Algorithm\Basic</Filter>
     </ClCompile>
-    <ClCompile Include="4-H_2234_성곽.cpp">
+    <ClCompile Include="4-H_2234_성곽_골드3.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
     <ClCompile Include="4-I_11723_집합_실버5.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="4-K_13244_Tree.cpp">
+    <ClCompile Include="4-K_13244_Tree_골드4.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="4-J_14393_종이 조각.cpp">
+    <ClCompile Include="4-J_14393_종이 조각_골드3.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
-    <ClCompile Include="4-L_5430_AC.cpp">
+    <ClCompile Include="4-L_5430_AC_골드5.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="4-M_14405_피카츄_브론즈1.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
   </ItemGroup>
