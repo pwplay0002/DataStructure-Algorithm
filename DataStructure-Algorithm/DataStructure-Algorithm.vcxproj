@@ -234,6 +234,8 @@
     <ClCompile Include="4-M_14405_피카츄_브론즈1.cpp" />
     <ClCompile Include="4-N_15353_큰 수 A+B%282%29_실버3.cpp" />
     <ClCompile Include="4-O_15926_현욱은 괄호왕이야!!.cpp" />
+    <ClCompile Include="4-Q_3015_오아시스 재결합.cpp" />
+    <ClCompile Include="5-0_1931_회의실 배정_실버1.cpp" />
     <ClCompile Include="Adjanceny List_인접 리스트.cpp" />
     <ClCompile Include="Adjanceny Matrix _인접 행렬.cpp" />
     <ClCompile Include="BFS.cpp" />

@@ -390,6 +390,12 @@
     <ClCompile Include="4-O_15926_현욱은 괄호왕이야!!.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="4-Q_3015_오아시스 재결합.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="5-0_1931_회의실 배정_실버1.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
