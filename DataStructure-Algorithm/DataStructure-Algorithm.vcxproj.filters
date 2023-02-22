@@ -396,6 +396,9 @@
     <ClCompile Include="5-0_1931_회의실 배정_실버1.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="5-1_1202_보석도둑.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">

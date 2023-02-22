@@ -2,10 +2,7 @@
 //#include <iostream>
 //#include "node.h"
 //
-//// ***** Doubly Linked List *****
-//
-//
-//template <typename T>
+//template<typename T>
 //class LinkedList
 //{
 //public:
@@ -53,12 +50,17 @@
 //		node<T>* temp = new node<T>();
 //		temp->data = _data;
 //
-//		temp->nexNode = prevNode->nexNode;
-//		prevNode->nexNode = temp;
+//		if (prevNode->nextNode != nullptr)
+//		{
+//			temp->nextNode = prevNode->nextNode;
+//			prevNode->nextNode = temp;
+//		}
+//		else prevNode->nextNode = temp;
 //	}
 //
 //	void erase(node<T>* prevNode)
 //	{
+//		if (prevNode->nextNode == nullptr) return;
 //		node<T>* temp = prevNode->nextNode;
 //		prevNode->nextNode = temp->nextNode;
 //
