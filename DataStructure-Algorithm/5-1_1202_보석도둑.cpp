@@ -55,41 +55,77 @@
 
 #pragma region my solve 2
 
-#include <iostream>
-#include <algorithm>
-#include <queue>
-#include <vector>
-#include <tuple>
-using namespace std;
-typedef long long ll;
-ll n, k, ret, temp1, temp;
-int main()
-{
-	ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+//#include <iostream>
+//#include <algorithm>
+//#include <queue>
+//using namespace std;
+//int n, k;
+//long long ret;
+//int main()
+//{
+//	ios_base::sync_with_stdio(0); cin.tie(0);
+//	cin >> n >> k;
+//	vector<pair<long long, long long>> jew(n);
+//	vector<long long> bags(k);
+//	for(int i = 0; i < n; i++) cin >> jew[i].first >> jew[i].second; // 무게, 가격
+//
+//	for(int i = 0; i < k; i++) cin >> bags[i]; // 가방 최대 무게
+//
+//	sort(jew.begin(), jew.end());
+//	sort(bags.begin(), bags.end());
+//
+//	priority_queue<long long> pq;
+//	int idx = 0;
+//	for(int i = 0; i < k; i++)
+//	{
+//		while (idx < n && jew[idx].first <= bags[i]) pq.push(jew[idx++].second);
+//		if (!pq.empty())
+//		{
+//			ret += pq.top();
+//			pq.pop();
+//		}
+//	}
+//	cout << ret;
+//	return 0;
+//}
 
-	cin >> n >> k;
-	vector<pair<ll, ll>> v(n);
-	vector<ll> vv(k);
-	for (int i = 0; i < n; i++)
-	{
-		cin >> v[i].first >> v[i].second;
-	}
-	for (int i = 0; i < k; i++) cin >> vv[i];
-	sort(v.begin(), v.end());
-	sort(vv.begin(), vv.end());
-	priority_queue<ll> pq;
+#pragma endregion
 
-	int j = 0;
-	for (int i = 0; i < k; i++)
-	{
-		while (j < n && v[j].first <= vv[i]) pq.push(v[j++].second);
-		if (pq.size()) 
-		{
-			ret += pq.top(); pq.pop();
-		}
-	}
-	cout << ret << "\n";
-	return 0;
-}
+#pragma region solve
+
+//#include <iostream>
+//#include <algorithm>
+//#include <queue>
+//using namespace std;
+//typedef long long ll;
+//ll n, k, ret, temp1, temp;
+//int main()
+//{
+//	ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+//
+//	cin >> n >> k;
+//	vector<pair<ll, ll>> v(n);
+//	vector<ll> vv(k);
+//	for (int i = 0; i < n; i++) 
+//	{
+//		cin >> v[i].first >> v[i].second;
+//	}
+//	for (int i = 0; i < k; i++) cin >> vv[i];
+//	sort(v.begin(), v.end());
+//	sort(vv.begin(), vv.end());
+//	priority_queue<ll> pq;
+//
+//	int j = 0;
+//	for (int i = 0; i < k; i++) 
+//	{
+//		while (j < n && v[j].first <= vv[i]) pq.push(v[j++].second);
+//		if (pq.size()) 
+//		{
+//			ret += pq.top(); pq.pop();
+//		}
+//	}
+//	cout << ret << "\n";
+//	return 0;
+//}
 
 #pragma endregion
