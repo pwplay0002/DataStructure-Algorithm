@@ -399,6 +399,12 @@
     <ClCompile Include="5-1_1202_보석도둑.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="5-2_14729_칠무해.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="5-3_2170_선 긋기.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">

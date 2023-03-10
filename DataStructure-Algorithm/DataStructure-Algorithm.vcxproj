@@ -237,6 +237,8 @@
     <ClCompile Include="4-Q_3015_오아시스 재결합.cpp" />
     <ClCompile Include="5-0_1931_회의실 배정_실버1.cpp" />
     <ClCompile Include="5-1_1202_보석도둑.cpp" />
+    <ClCompile Include="5-2_14729_칠무해.cpp" />
+    <ClCompile Include="5-3_2170_선 긋기.cpp" />
     <ClCompile Include="Adjanceny List_인접 리스트.cpp" />
     <ClCompile Include="Adjanceny Matrix _인접 행렬.cpp" />
     <ClCompile Include="BFS.cpp" />
