@@ -405,6 +405,12 @@
     <ClCompile Include="5-3_2170_선 긋기.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="5-4_3273_두 수의 합_실버3.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="5-A_2109_순회강연_골드3.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">

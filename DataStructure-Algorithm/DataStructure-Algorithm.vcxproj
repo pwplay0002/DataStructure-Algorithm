@@ -239,6 +239,8 @@
     <ClCompile Include="5-1_1202_보석도둑.cpp" />
     <ClCompile Include="5-2_14729_칠무해.cpp" />
     <ClCompile Include="5-3_2170_선 긋기.cpp" />
+    <ClCompile Include="5-4_3273_두 수의 합_실버3.cpp" />
+    <ClCompile Include="5-A_2109_순회강연_골드3.cpp" />
     <ClCompile Include="Adjanceny List_인접 리스트.cpp" />
     <ClCompile Include="Adjanceny Matrix _인접 행렬.cpp" />
     <ClCompile Include="BFS.cpp" />
