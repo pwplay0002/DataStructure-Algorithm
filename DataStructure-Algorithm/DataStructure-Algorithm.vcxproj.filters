@@ -414,6 +414,9 @@
     <ClCompile Include="5-B_9935_문자열 폭발.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="5-C_1781_컵라면.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
