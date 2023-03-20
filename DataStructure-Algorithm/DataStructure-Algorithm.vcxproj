@@ -243,6 +243,7 @@
     <ClCompile Include="5-A_2109_순회강연_골드3.cpp" />
     <ClCompile Include="5-B_9935_문자열 폭발.cpp" />
     <ClCompile Include="5-C_1781_컵라면.cpp" />
+    <ClCompile Include="5-D_14469_소가 길을 건너간 이유 3.cpp" />
     <ClCompile Include="Adjanceny List_인접 리스트.cpp" />
     <ClCompile Include="Adjanceny Matrix _인접 행렬.cpp" />
     <ClCompile Include="BFS.cpp" />
