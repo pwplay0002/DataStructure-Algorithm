@@ -420,6 +420,9 @@
     <ClCompile Include="5-D_14469_소가 길을 건너간 이유 3.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="5-G_1644_소수의 연속합.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
