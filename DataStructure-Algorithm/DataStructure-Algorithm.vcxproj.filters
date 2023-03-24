@@ -423,6 +423,9 @@
     <ClCompile Include="5-G_1644_소수의 연속합.cpp">
       <Filter>백준 문제</Filter>
     </ClCompile>
+    <ClCompile Include="5-H_13144_List of Unique Numbers.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure\stack\stack.h">
