@@ -38,6 +38,7 @@
 #pragma region solve
 
 #include <iostream>
+#include <tuple>
 #include <queue>
 #define endl '\n'
 using namespace std;
