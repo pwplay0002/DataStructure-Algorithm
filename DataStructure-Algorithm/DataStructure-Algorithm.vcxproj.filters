@@ -57,6 +57,15 @@
     <Filter Include="2021 KAKAO BLIND RECRUITMENT">
       <UniqueIdentifier>{dfe3ff4d-cfa8-4d3c-b873-d9384ab21121}</UniqueIdentifier>
     </Filter>
+    <Filter Include="프로그래머스 문제">
+      <UniqueIdentifier>{1b39a660-4e82-42c8-b769-c2db6d5349ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="프로그래머스 문제\코딩테스트 고득점 Kit">
+      <UniqueIdentifier>{263c4f2c-a3fc-4dd7-94c9-d61ac52b256f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="프로그래머스 문제\코딩테스트 고득점 Kit\해시">
+      <UniqueIdentifier>{dddab6e7-9f04-4416-ba50-dd334de502a5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
@@ -425,6 +434,15 @@
     </ClCompile>
     <ClCompile Include="5-H_13144_List of Unique Numbers.cpp">
       <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="20187_종이접기_골드3.cpp">
+      <Filter>백준 문제</Filter>
+    </ClCompile>
+    <ClCompile Include="폰켓몬.cpp">
+      <Filter>프로그래머스 문제\코딩테스트 고득점 Kit\해시</Filter>
+    </ClCompile>
+    <ClCompile Include="완주하지 못한 선수.cpp">
+      <Filter>프로그래머스 문제\코딩테스트 고득점 Kit\해시</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

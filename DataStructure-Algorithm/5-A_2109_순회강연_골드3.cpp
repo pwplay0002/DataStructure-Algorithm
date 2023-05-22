@@ -19,6 +19,7 @@
 //	priority_queue<int, vector<int>, greater<int>> pq;
 //	for(int i = 0; i < n; i++)
 //	{
+
 //		pq.push(dp[i].second);
 //		if(pq.size() > dp[i].first)
 //		{

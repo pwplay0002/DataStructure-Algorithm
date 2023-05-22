@@ -158,6 +158,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="0-0_template.cpp" />
+    <ClCompile Include="완주하지 못한 선수.cpp" />
+    <ClCompile Include="폰켓몬.cpp" />
     <None Include="04_bit_operator_XOR.txt" />
     <ClCompile Include="1-B_10808_알파벳 개수_브론즈4.cpp" />
     <ClCompile Include="1-J_9375_패션왕 신해빈_실버3.cpp" />
@@ -198,6 +200,7 @@
     <ClCompile Include="2-R_1068_트리_골드5.cpp" />
     <ClCompile Include="2-S_1325_효율적인 해킹_실버1.cpp" />
     <ClCompile Include="2-T_17298_오큰수_골드4.cpp" />
+    <ClCompile Include="20187_종이접기_골드3.cpp" />
     <ClCompile Include="2839_설탕 배달_실버4.cpp" />
     <ClCompile Include="1-C_2979_트럭 주차_브론즈2.cpp" />
     <ClCompile Include="1-G_9996_한국이 그리울 땐 서버에 접속하지_실버3.cpp" />
